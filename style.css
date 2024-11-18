@@ -6,33 +6,27 @@ body {
     padding: 0;
     background-color: #f4f4f9;
     color: #333;
-    display: flex;
-    justify-content: center;
+    font-size: 1.2em;
 }
 
 /* Content Container */
 .container {
     max-width: 960px;
-    margin: 20px;
+    margin: 20px auto; /* Center the container horizontally */
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    /* Add padding for smaller screens */
-    padding-left: 15px;
-    padding-right: 15px;
     box-sizing: border-box;
 }
 
 /* Media Query for Smaller Screens */
 @media (max-width: 768px) {
     .container {
-        /* Add more padding on smaller screens */
         padding: 15px;
-        margin: 10px;
+        margin: 10px; /* Reduce margin on smaller screens */
     }
 
-    /* Adjust font sizes for better readability on small screens */
     h1 {
         font-size: 1.8em;
     }
@@ -45,7 +39,6 @@ body {
         font-size: 1.3em;
     }
 
-    /* Ensure tables are scrollable on small screens */
     table {
         display: block;
         overflow-x: auto;
@@ -57,9 +50,12 @@ body {
         white-space: nowrap;
     }
 
-    /* Adjust padding for lists */
     ul {
         padding-left: 15px;
+    }
+
+    .formula {
+        font-size: 0.9em;
     }
 }
 
@@ -111,14 +107,15 @@ img {
 
 /* Formulas */
 .formula {
-    font-size: 1em;
+    font-size: 1.1em;
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: #8B0000; /* Darker background for better contrast */
     border: 1px solid #ddd;
     padding: 10px;
     margin: 20px 0;
     border-radius: 5px;
-    color: #2c3e50;
+    color: #fff;
+    font-weight: bold;
     overflow-x: auto;
 }
 
