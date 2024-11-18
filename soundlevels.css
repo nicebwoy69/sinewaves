@@ -1,0 +1,220 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    font-size: 1.2em;
+}
+
+/* Content Container */
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px; /* Add padding for better spacing */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        width: 100%;
+    }
+
+    th, td {
+        font-size: 0.85em;
+        white-space: nowrap;
+    }
+
+    ul {
+        padding-left: 15px;
+    }
+
+    .formula {
+        font-size: 0.9em;
+    }
+}
+
+/* Headers */
+h1, h2, h3 {
+    color: #2c3e50;
+    margin-top: 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.75em;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 5px;
+    margin-top: 1.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #e74c3c;
+    margin-top: 1em;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+    margin: 15px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Formulas */
+.formula {
+    font-size: 1.1em;
+    text-align: center;
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text for contrast */
+    border: 1px solid #ddd;
+    padding: 15px; /* Increased padding for better spacing */
+    margin: 20px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    overflow-x: auto;
+    font-size: 1.1em;
+     
+ 
+}
+
+.results{ background: aliceblue; list-style-type: none;}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+th {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+/* Summary Section */
+.summary-table {
+    margin-top: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Code Blocks for Formulas */
+code {
+    font-family: Consolas, monospace;
+    font-size: 0.9em;
+    background-color: #f2f2f2;
+    padding: 3px 5px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* Additional Small Styling */
+em {
+    color: #e74c3c;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 30px 0;
+}
+
+/* Interactive Section */
+.interactive-section {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.interactive-section label {
+    font-weight: bold;
+}
+
+.interactive-section input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Common Mistakes Section */
+.common-mistakes {
+    margin-top: 20px;
+    background-color: #fff5f5;
+    border-left: 5px solid #e74c3c;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.common-mistakes h3 {
+    color: #e74c3c;
+    font-size: 1.3em;
+}
+
+/* Final Summary Section */
+.final-summary {
+    background-color: #e3f2fd;
+    border: 1px solid #64b5f6;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
