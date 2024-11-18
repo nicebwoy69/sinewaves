@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial 4: Sound Absorption and Transmission Loss</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        .formula {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 0.85em;
+            text-align: center;
+            margin: 10px 0;
+            max-width: 100%;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+        .note {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Tutorial 4: Sound Absorption and Transmission Loss</h1>
+
+<h2>1. Introduction to Sound Absorption and Transmission</h2>
+<p><strong>Overview</strong>:</p>
+<ul>
+    <li>Sound absorption and transmission loss are key principles in acoustics that affect how sound behaves in spaces and across barriers.</li>
+    <li>These principles are essential in designing spaces for optimal sound quality and noise control.</li>
+</ul>
+
+<h2>2. Sound Absorption</h2>
+<p><strong>Explanation of Sound Absorption</strong>:</p>
+<ul>
+    <li><strong>Sound absorption</strong> is the process by which materials convert sound energy into heat, reducing the sound that reflects back into the space.</li>
+    <li>Absorptive materials help reduce reverberation, echo, and overall noise levels.</li>
+</ul>
+
+<h3>Absorption Coefficient</h3>
+<p>The <strong>absorption coefficient</strong> (\( \alpha \)) measures a material's ability to absorb sound at a given frequency, with values ranging from 0 (no absorption) to 1 (full absorption).</p>
+
+<div class="formula">
+    \[ \alpha = \frac{I_a}{I_i} \]
+</div>
+
+<p><strong>Where</strong>:</p>
+<ul>
+    <li><em>I<sub>a</sub></em> is the intensity of the absorbed sound.</li>
+    <li><em>I<sub>i</sub></em> is the intensity of the incident sound.</li>
+</ul>
+
+<h3>Types of Absorptive Materials</h3>
+<ul>
+    <li><strong>Porous Absorbers</strong>: Materials like fiberglass and foam, which absorb sound by trapping air molecules in tiny spaces.</li>
+    <li><strong>Resonant Absorbers</strong>: Devices tuned to absorb specific frequencies, such as bass traps for low-frequency sounds.</li>
+    <li><strong>Membrane Absorbers</strong>: Typically thin materials that absorb sound through vibration, effective for low and mid frequencies.</li>
+</ul>
+
+<h3>Example Calculation: Absorption in a Conference Room</h3>
+<p>Calculate the effective absorption area (A) for a room with 40 square meters of carpeting (absorption coefficient \( \alpha = 0.25 \)):</p>
+<div class="formula">
+    \[ A = \alpha \times \text{surface area} = 0.25 \times 40 = 10 \, \text{m}^2 \]
+</div>
+<p>This effective absorption helps manage reverberation in the room, making it suitable for meetings and presentations.</p>
+
+<h2>3. Transmission Loss</h2>
+<p><strong>Explanation of Transmission Loss (TL)</strong>:</p>
+<ul>
+    <li><strong>Transmission loss</strong> measures a material's ability to block sound transmission from one side of a barrier to the other.</li>
+    <li>Higher transmission loss indicates better sound insulation, essential in walls, floors, and windows for noise control.</li>
+</ul>
+
+<h3>Formula for Transmission Loss</h3>
+<p>Transmission loss (TL) can be calculated as:</p>
+<div class="formula">
+    \[ TL = 10 \log_{10} \left( \frac{I_i}{I_t} \right) \]
+</div>
+
+<p><strong>Where</strong>:</p>
+<ul>
+    <li><em>I<sub>i</sub></em> is the intensity of the incident sound.</li>
+    <li><em>I<sub>t</sub></em> is the intensity of the transmitted sound.</li>
+</ul>
+
+<h3>Factors Affecting Transmission Loss</h3>
+<ul>
+    <li><strong>Mass Law</strong>: Transmission loss increases with the density and thickness of the barrier, as heavier materials resist sound waves better.</li>
+    <li><strong>Resonance Frequency</strong>: Materials vibrate at certain frequencies, reducing TL at these frequencies.</li>
+    <li><strong>Structural Design</strong>: Double walls or decoupled structures improve TL by reducing sound transfer paths.</li>
+</ul>
+
+<h3>Example Calculation: Transmission Loss for a Wall</h3>
+<p>Calculate the TL for a wall where the incident sound intensity is 1 W/m², and the transmitted intensity is 0.01 W/m²:</p>
+<div class="formula">
+    \[ TL = 10 \log_{10} \left( \frac{1}{0.01} \right) = 20 \, \text{dB} \]
+</div>
+<p>This TL indicates that the wall reduces the sound level by 20 dB, which may be adequate for typical noise control needs.</p>
+
+<h2>4. Practical Applications of Sound Absorption and Transmission</h2>
+
+<p><strong>Room Design and Noise Control</strong>:</p>
+<ul>
+    <li>**Recording Studios**: Use absorptive materials and high TL barriers to create quiet environments for recording.</li>
+    <li>**Office Buildings**: Absorptive panels and partitions help reduce noise between workspaces, enhancing productivity.</li>
+</ul>
+
+<h3>Example Scenario: Improving Acoustic Quality in an Office</h3>
+<p>An open office has a noise issue. By adding absorptive ceiling tiles and partitioning walls with high TL, sound levels decrease, creating a more comfortable workspace.</p>
+
+<h2>5. Summary and Key Takeaways</h2>
+<p><strong>Review of Key Concepts</strong>:</p>
+<ul>
+    <li>Sound absorption reduces reverberation, while transmission loss blocks sound from passing through barriers.</li>
+    <li>Materials with high absorption coefficients or high TL values are effective in managing sound in various environments.</li>
+</ul>
+
+<p><strong>Practical Relevance</strong>:</p>
+<p>Understanding absorption and transmission loss aids in creating acoustically optimized spaces, whether for sound isolation, comfort, or productivity.</p>
+
+</body>
+</html>

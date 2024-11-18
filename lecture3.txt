@@ -1,0 +1,726 @@
+NIE2249 Acoustics and Psychoacoustics
+ Lecture 3
+ Sinusoid
+ NIE2249 Acoustics and Psychoacoustics
+ Prof. Hyunkook Lee
+Lecture 3 key points
+ • After this lecture, you should be able to– Explain what phase and magnitude of a sinusoid are. – Apply phase delay to a sinusoidal function.– Explain the difference between the addition of 
+correlated sinusoids and that of uncorrelated 
+sinusoids.
+ 1
+ NIE2249 Acoustics and Psychoacoustics
+ Prof. Hyunkook Lee
+Sinusoidal signals
+ • Sinusoid is the simplest form of audio signal having a 
+single frequency (i.e. a tone).
+ Period T
+ A : Peak amplitude
+ T : Period (sec)
+ f 
+: Frequency (Hz)
+ f = 1 / T
+ NIE2249 Acoustics and Psychoacoustics
+ 2Hz
+ Amplitude
+ Time(sec)
+ 2
+ Prof. Hyunkook Lee
+Sinusoidal signals
+ • Sinusoid is the simplest form of audio signal having a 
+single frequency, referring to both sine and cosine waves.
+ A : Peak amplitude
+ T : Period (sec)
+ f 
+: Frequency (Hz)
+ f = 1 / T
+ NIE2249 Acoustics and Psychoacoustics
+ 4Hz
+ Amplitude
+ Time(sec)
+ 3
+ Prof. Hyunkook Lee
+Sinusoidal signals
+ • Sinusoid is the simplest form of audio signal having a 
+single frequency, referring to both sine and cosine waves.
+ A : Peak amplitude
+ T : Period (sec)
+ f 
+: Frequency (Hz)
+ f = 1 / T
+ NIE2249 Acoustics and Psychoacoustics
+ 8Hz
+ Amplitude
+ Time(sec)
+ 4
+ Prof. Hyunkook Lee
+Sinusoidal signals
+ • Sinusoid is the simplest form of audio signal having a 
+single frequency, referring to both sine and cosine waves.
+ A : Peak amplitude
+ T : Period (sec)
+ f 
+: Frequency (Hz)
+ f = 1 / T
+ NIE2249 Acoustics and Psychoacoustics
+ 16Hz
+ Amplitude
+ Time(sec)
+ 5
+ Prof. Hyunkook Lee
+Sinusoidal signals
+ • Sinusoid is the simplest form of audio signal having a 
+single frequency, referring to both sine and cosine waves.
+ A : Peak amplitude
+ T : Period (sec)
+ f 
+: Frequency (Hz)
+ f = 1 / T
+ NIE2249 Acoustics and Psychoacoustics
+ 32Hz
+ Amplitude
+ Time(sec)
+ 6
+ Prof. Hyunkook Lee
+Sinusoidal signals
+ • Sinusoid is the fundamental element to form complex 
+musical signals.
+ Total = 2Hz+4Hz+8Hz+16Hz+32Hz
+ A : Peak amplitude
+ T : Period (sec)
+ f 
+: Frequency (Hz)
+ f = 1 / T
+ NIE2249 Acoustics and Psychoacoustics
+ Amplitude
+ Time(sec)
+ 7
+ Prof. Hyunkook Lee
+Sinusoidal signals
+ • Fourier transform analyses the individual sinusoid 
+components (amplitude and phase) that compose a 
+complex sound.
+ At a given time, different frequencies 
+have different phases.
+ Amplitude
+ NIE2249 Acoustics and Psychoacoustics
+ Time(sec)
+ 8
+ Prof. Hyunkook Lee
+Phase
+ • Phase is a certain point of time in one period of a 
+sinusoidal function (each frequency), expressed in angle.
+ • In audio signal processing we use radian angle rather than 
+degree to express phase.
+ • Conversion between degree and radian
+ 1 rad =180°/π
+ Degree
+ Radian
+ 0°
+ 45°
+ , where  π =3.14
+ 90°
+ 180°
+ 0
+ p
+ /
+ 4
+ NIE2249 Acoustics and Psychoacoustics
+ p
+ /
+ 2
+ p
+ 360°
+ 2
+ p
+ 9
+ Prof. Hyunkook Lee
+Time vs. Phase
+ • Each point in time in a given period of a sinusoidal function 
+corresponds to a phase angle between 0 and 2pi.
+ Unit circle
+ p
+ p
+ 2
+ Period T
+ (
+ 0 p
+ 2
+ 3p
+ /
+ 2
+ NIE2249 Acoustics and Psychoacoustics
+ )
+ Time(sec)
+ 10
+ Prof. Hyunkook Lee
+Time vs. Phase
+ • Each point in time in a given period of a sinusoidal function 
+corresponds to a phase angle between 0 and 2pi.
+ Unit circle
+ p
+ p
+ 2
+ p
+ /
+ 4
+ 0.707
+ Period T
+ (
+ 0 p
+ 2
+ 3p
+ /
+ 2
+ NIE2249 Acoustics and Psychoacoustics
+ )
+ Time(sec)
+ 11
+ Prof. Hyunkook Lee
+Time vs. Phase
+ • Each point in time in a given period of a sinusoidal function 
+corresponds to a phase angle between 0 and 2pi.
+ Unit circle
+ p
+ 2
+ p
+ Period T
+ (
+ 0 p
+ 2
+ 3p
+ /
+ 2
+ NIE2249 Acoustics and Psychoacoustics
+ )
+ Time(sec)
+ 12
+ Prof. Hyunkook Lee
+Time vs. Phase
+ • Each point in time in a given period of a sinusoidal function 
+corresponds to a phase angle between 0 and 2pi.
+ Unit circle
+ 3p
+ p
+ p
+ /
+ 4
+ 2
+ Period T
+ (
+ 0 p
+ 2
+ 3p
+ /
+ 2
+ NIE2249 Acoustics and Psychoacoustics
+ )
+ Time(sec)
+ 13
+ Prof. Hyunkook Lee
+Time vs. Phase
+ • Each point in time in a given period of a sinusoidal function 
+corresponds to a phase angle between 0 and 2pi.
+ Unit circle
+ p
+ p
+ 5p
+ /
+ 2
+ Period T
+ (
+ 0 p
+ 2
+ )
+ 4
+ NIE2249 Acoustics and Psychoacoustics
+ 3p
+ /
+ 2
+ Time(sec)
+ 14
+ Prof. Hyunkook Lee
+Time vs. Phase
+ • Each point in time in a given period of a sinusoidal function 
+corresponds to a phase angle between 0 and 2pi.
+ Unit circle
+ p
+ p
+ 2
+ Period T
+ (
+ 0 p
+ 2
+ )
+ 3p
+ /
+ 2
+ 7p
+ /
+ 4
+ NIE2249 Acoustics and Psychoacoustics
+ Time(sec)
+ 15
+ Prof. Hyunkook Lee
+Time vs. Phase
+ • Each point in time in a given period of a sinusoidal function 
+corresponds to a phase angle between 0 and 2pi.
+ Unit circle
+ p
+ p
+ 2
+ Period T
+ (
+ 0 p
+ 2
+ 3p
+ /
+ 2
+ )
+ Time(sec)
+ NIE2249 Acoustics and Psychoacoustics
+ 16
+ Prof. Hyunkook Lee
+Time vs. Phase
+ • Each point in time in a given period of a sinusoidal function 
+corresponds to a phase angle between 0 and 2pi.
+ Unit circle
+ p
+ p
+ 2
+ p
+ /
+ 4
+ Period T
+ (
+ 0 p
+ 2
+ 3p
+ /
+ 2
+ NIE2249 Acoustics and Psychoacoustics
+ )
+ Time(sec)
+ 17
+ Prof. Hyunkook Lee
+Time vs. Phase
+ • Each point in time in a given period of a sinusoidal function 
+corresponds to a phase angle between 0 and 2pi.
+ Unit circle
+ p
+ p
+ 2
+ Period T
+ (
+ 0 p
+ 2
+ 3p
+ /
+ 2
+ NIE2249 Acoustics and Psychoacoustics
+ )
+ Time(sec)
+ 18
+ Prof. Hyunkook Lee
+Time vs. Phase
+ • Each point in time in a given period of a sinusoidal function 
+corresponds to a phase angle between 0 and 2pi.
+ Unit circle
+ p
+ p
+ 5p
+ /
+ 2
+ Period T
+ (
+ 0 p
+ 2
+ )
+ 4
+ 3p
+ /
+ 2
+ Time(sec)
+ NIE2249 Acoustics and Psychoacoustics
+ 19
+ Prof. Hyunkook Lee
+Time vs. Phase
+ • Each point in time in a given period of a sinusoidal function 
+corresponds to a phase angle between 0 and 2pi.
+ Unit circle
+ p
+ p
+ 2
+ Period T
+ (
+ 0 p
+ 2
+ 3p
+ /
+ 2
+ )
+ Time(sec)
+ NIE2249 Acoustics and Psychoacoustics
+ 20
+ Prof. Hyunkook Lee
+Time vs. Phase
+ • For a given frequency, time can be converted to phase 
+angle ‘theta’ (   ) or vice versa using the equation below.  
+q
+ q 2
+ = p
+ f ×
+ t
+ 2
+ p
+ q
+ T
+ T
+ :
+ q
+ =
+ =
+ 2
+ p
+ =
+ \
+ q
+ 1
+ =
+ f
+ 2
+ T
+ t
+ p
+ ft
+ :
+ t
+ € 
+NIE2249 Acoustics and Psychoacoustics
+ t =θ/2πf
+ where
+ q
+ T 
+t
+ f
+ :
+ :
+ phase
+ angle
+ frequency
+ :
+ :
+ t
+ ime
+ period
+ in 
+radian
+ 21
+ Prof. Hyunkook Lee
+NIE2249 Acoustics and Psychoacoustics Prof. Hyunkook Lee
+ Sinusoidal signals
+ • For a given time, phase angle varies with frequency.
+ 22
+ Time(sec)
+ Amplitude
+ 2Hz
+ p
+ 2 p
+ 2 / 3p
+Sinusoidal signals
+ • For a given time, phase angle varies with frequency.
+ p
+ 2
+ p
+ 3p
+ /
+ 2
+ NIE2249 Acoustics and Psychoacoustics
+ 4Hz
+ Amplitude
+ Time(sec)
+ 23
+ Prof. Hyunkook Lee
+Sinusoidal function
+ • A sinusoidal function calculates the amplitude of a sinusoid 
+at a given time. 
+A
+ (
+ t
+ )
+ =
+ A
+ ×
+ sin(
+ A(t) : Amplitude at time t
+ A     
+j
+ 2
+ p
+ ft
+ : Peak amplitude
+ : ‘Phi’, Phase shift (or offset)
+ : initial phase at time t (=      
+q
+ 2
+ ft
+ p +
+ )
+ j
+ )
+ NIE2249 Acoustics and Psychoacoustics
+ 24
+ Prof. Hyunkook Lee
+Sinusoidal function
+ • A sinusoidal function is expressed as
+ A
+ (
+ t
+ )
+ =
+ A
+ ×
+ sin(
+ A(t) : Amplitude at time t
+ A     
+j
+ 2
+ p
+ ft
+ : Peak amplitude
+ : ‘Phi’, Phase shift (or offset)
+ : initial phase at time t (=      
+q
+ 2
+ ft
+ p +
+ )
+ j
+ )
+ j
+ (
+ phi :
+ )
+ phase
+ shift
+ NIE2249 Acoustics and Psychoacoustics
+ 25
+ Prof. Hyunkook Lee
+Sinusoid function
+ • Example 1– Peak amplitude = 1 – Frequency = 2Hz– Phase shift = 0 (No delay) 
+A
+ (
+ t
+ A
+ (
+ t
+ )
+ )
+ =
+ =
+ A
+ 1
+ ×
+ ×
+ sin(
+ sin(
+ 2
+ ft
+ p +
+ 2
+ p
+ ×
+ 2
+ j
+ ×
+ t
+ )
+ +
+ 0
+ )
+ 26
+ NIE2249 Acoustics and Psychoacoustics
+ Prof. Hyunkook Lee
+Sinusoid function
+ • Example 2– Peak amplitude = 1 – Frequency = 2Hz– Phase shift =   
+A
+ (
+ t
+ )
+ =
+ A
+ ×
+ sin(
+ 2
+ p
+ ft
+ p +
+ A
+ (
+ t
+ )
+ =
+ 1
+ ×
+ sin(
+ 2
+ p
+ ×
+ 2
+ /
+ ×
+ 2
+ j
+ t
+)
+ p
+ /
+ 2
+ )
+ 27
+ NIE2249 Acoustics and Psychoacoustics
+ Prof. Hyunkook Lee
+Time delay vs. Phase shift
+ • For a given frequency, a time delay can be converted to a 
+phase shift.
+ j 2
+ = p
+ f D ×
+ where
+ D 
+j
+ f
+ :
+ :
+ t
+ phase
+ : 
+f
+ shift 
+requency
+ time
+ (in 
+delay 
+(in 
+t
+ radian)
+ sec)
+ € 
+NIE2249 Acoustics and Psychoacoustics
+ Δt =ϕ/2πf
+ 28
+ Prof. Hyunkook Lee
+NIE2249 Acoustics and Psychoacoustics Prof. Hyunkook Lee
+ Time delay vs. Phase shift
+ • Example 3–Peak amplitude = 0.7–Frequency = 10Hz–Time delay = 150ms  
+29
+ ) 2 sin( ) ( j p+ × = ft A t A
+ ) 10 2 sin( 7 . 0 ) ( j p + × × × = t t A
+ t f D × = p j 2
+ ) 42 . 9 10 2 sin( 7 . 0 ) (-× × × = t t A p
+ 42 . 9 ) 15 . 0 ( 10 2-=-× × = p j
+Adding sinusoids together
+ • Correlated sinusoids – Can differ in amplitude 
+and phase, but must 
+have the same frequency.– E.g. 100Hz sine waves 
+with different amplitudes 
+and phase shift
+ 30
+ NIE2249 Acoustics and Psychoacoustics
+ Prof. Hyunkook Lee
+Adding sinusoids together
+ • Uncorrelated sinusoids – Must have different
+ frequencies.– E.g. 100Hz, 200Hz and 
+400Hz sine waves with 
+the same amplitude
+ 31
+ NIE2249 Acoustics and Psychoacoustics
+ Prof. Hyunkook Lee
+Adding sinusoids together
+ • Adding correlated sinusoids– When correlated signals 
+having the same phase are 
+added together, the resulting 
+peak amplitude is the sum of 
+the peak amplitudes of the 
+individual signals.– E.g. 1 + 1 = 2
+ 32
+ NIE2249 Acoustics and Psychoacoustics
+ Prof. Hyunkook Lee
+Adding sinusoids together
+ • Adding correlated sinusoids– When correlated signals with 
+different phase offsets are 
+added together, the resulting 
+peak amplitude has non-linear 
+relationship with the individual 
+peak amplitudes. – E.g. 1 + 1 = 1.4– But the frequency of the added
+ signal still remains the same!
+ 33
+ NIE2249 Acoustics and Psychoacoustics
+ Prof. Hyunkook Lee
+Adding sinusoids together
+ • Adding correlated sinusoids– When correlated signals with 
+different phase offsets are 
+added together, the resulting 
+peak amplitude has non linear 
+relationship with the individual 
+peak amplitudes. – If the phase difference 
+between the two signals is           
+(180°), then the summed 
+signal has 0 amplitude.
+ p
+ 34
+ NIE2249 Acoustics and Psychoacoustics
+ Prof. Hyunkook Lee
+Adding sinusoids together
+ • Adding uncorrelated sinusoids– When uncorrelated sinusoids are 
+added together, the resulting 
+amplitude is always greater than 
+the individual signals.– The resulting signal has a 
+completely different waveform 
+with harmonic or non-harmonic 
+partials.– When harmonic sinusoids are 
+added, you can hear both 
+frequencies separately.
+ 35
+ NIE2249 Acoustics and Psychoacoustics
+ Prof. Hyunkook Lee
+Adding sinusoids together
+ • Adding uncorrelated sinusoids– When uncorrelated sinusoids are 
+added together, the resulting 
+amplitude is always greater than 
+the individual signals.– The resulting signal has a 
+completely different waveform 
+with harmonic or non-harmonic 
+partials.– When non-harmonic sinusoids 
+are added, the resulting signal is 
+modulated by the difference 
+frequency (Amplitude Modulation) Modulated at 50Hz
+ 36
+ (fm = 500Hz – 450Hz)
+ NIE2249 Acoustics and Psychoacoustics
+ Prof. Hyunkook Lee
+Adding sinusoids together
+ • Adding uncorrelated sinusoids– When uncorrelated sinusoids are 
+added together, the resulting 
+amplitude is always greater than 
+the individual signals.– The resulting signal has a 
+completely different waveform 
+with harmonic or non-harmonic 
+partials.– When non-harmonic sinusoids 
+are added, the resulting signal is 
+modulated by the difference 
+frequency (Amplitude Modulation) Modulated at 10Hz
+ 37
+ (fm = 500Hz – 490Hz)
+ NIE2249 Acoustics and Psychoacoustics
+ Prof. Hyunkook Lee
+Adding sinusoids together
+ • Summary– When correlated sinusoid signals are added together, the resulting 
+signal is another sine wave with the same frequency.– The summed amplitude of correlated sinusoids can be lower or 
+higher than the individual amplitude depending on the phase 
+difference between the two. – Summation of two correlated sinusoids with a phase difference of       
+will cause the signals to cancel.– Summation of uncorrelated sinusoids produce a different signal.
+ • Harmonic signals: all frequencies are heard separately. 
+• Non-harmonic signals: modulated at the difference frequency.
+ NIE2249 Acoustics and Psychoacoustics
+ 38
+ Prof. Hyunkook Lee

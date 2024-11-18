@@ -1,0 +1,650 @@
+
+ Lecture 2
+ Sound Level
+ 
+ 
+Lecture 2 key points
+ • After this lecture, you should be able to– Explain the difference between sound power, sound intensity and 
+sound pressure.– Calculate sound power level (SWL), sound intensity level (SIL) and 
+sound pressure level (SPL).– Calculate SPL for multiple sound sources.
+ 
+ 1
+ 
+Power, Intensity and Pressure of Sound
+ 
+ 2
+ 
+Sound energy radiation
+ • Point source à sound energy is radiated omni-directionally 
+(Directionality index Q = 1). 
+• The energy is distributed over an increasingly large area as 
+the sound wave propagates further from the source.
+ Source
+ 
+ 3
+ 
+Sound energy radiation
+ • Standard acoustic measurement techniques (e.g. ISO3382) 
+are based on the assumption that the sound source is a 
+point source.
+ • In practice, a perfect point source is difficult to find.
+ • Dodecahedron loudspeaker is a practical alternative to a 
+perfect point source.
+ 
+ 4
+ 
+Sound power
+ • The energy of sound radiated by a sound source in all 
+directions per unit of time– A property of the sound source itself.– Independent of the measurement distance or environment.– Measurement unit: watts (W)
+ WSource
+ =
+ J
+ /
+ s
+ Where J is Joule, s is time in seconds
+ 
+ Source
+ Power = W
+ 5
+ 
+Sound intensity
+ • The sound power per unit area of the sphere at a given 
+distance from a sound source– Measurement unit:
+ I
+ =
+ A 
+W
+ W
+ Source
+ / m
+ =
+ 2
+ W
+ Source
+ Acoustic
+ 4 r
+ p
+ Sphere
+ Where r is the distance from the source in m.
+ Intensity (            
+2
+ Source
+ r
+ W
+ 
+ / m
+ 2
+ )
+ 6
+ 
+Sound pressure
+ • The root mean square (RMS) pressure of a sound measured 
+at a specific point in space (e.g. ear, microphone). – Measurement unit: Pascal (Pa)– Minimum audible pressure: 20uPa (micro pascal)– Threshold of pain: 20Pa or higher
+ 1
+ = T
+ rms
+ p
+ 0 
+2 ) (
+ ò
+ T
+ Where T is the total period of time in sec.
+ Source
+ p
+ t
+ dt
+ Pressure
+ 
+ 7
+ 
+Sound Power Level (SWL)
+ Sound Intensity Level (SIL)
+ Sound Pressure Level (SPL)
+ 
+ 8
+ 
+Measuring sound levels
+ • Sound power, intensity and pressure are physical 
+quantities of sound.
+ • Sound “level” is measured in the ratio of a physical quantity 
+relative to a specified reference level.
+ • Reference level represents the lower threshold of audibility.
+ 10
+12
+ 10
+W
+ 12
+ 20
+ µ
+ W
+ Pa
+ for Sound Power Level (SWL)
+ /
+ m
+ 2
+ for Sound Intensity Level (SIL)
+ for Sound Pressure Level (SPL)
+ 
+ 9
+ 
+Measuring sound levels
+ • The ratio is expressed on a logarithmic scale because of 
+the way we perceive the loudness of a sound.
+ 2
+ 1.8
+ Perceived loudness
+ 1.6
+ 1.4
+ 1.2
+ 1
+ 0.8
+ 0.6
+ 0.4
+ 0.2
+ 0
+ 0
+ 10
+ 20
+ 30
+ 40
+ 50
+ 60
+ 70
+ Ear input signal level
+ 80
+ 90
+ 100
+ At higher levels human ears are less sensitive to the changes in loudness. 
+
+ 10
+ 
+Measuring sound levels
+ • Decibel (dB)
+ !
+ Level(dB)=10log10 
+actual energy
+ " #
+ 11
+ ref energy
+ $
+ % &
+ 
+ 
+Sound Power Level (SWL)
+ • A logarithmic measure of the total sound power radiated 
+by a sound source in comparison to
+ 10
+12
+ W– Unit: dB SWL (e.g. 89 dB SWL)– A property of the sound source (Not directly related to loudness)– Useful for machine noise measurement
+ =
+ SWL 10
+ 10
+ Where                             
+Wref
+ log
+ =
+ 10
+12
+ è 
+æ
+ ç ç
+ W
+ W
+ W
+ actual
+ ref
+ (1 picowatt)
+ 
+ ø 
+ö
+ ÷ ÷
+ 12
+ 
+Sound Power Level (SWL)
+ • Sound power and SWL for some sound sources
+ Sound source
+ Loud speech
+ Machine gun
+ Loudspeaker for 
+rock concert
+ Siren
+ Turbo jet engine
+ Sound power
+ 0.001W
+ 10W
+ SWL
+ 90dB
+ 130dB
+ 100W
+ 1,000W
+ 10,000W
+ Rocket engine
+ 1,000,000W
+ 
+ 140dB
+ 150dB
+ 160dB
+ 180dB
+ 13
+ 
+Sound Intensity Level (SIL)
+ • A logarithmic measure of the sound intensity (sound power 
+per unit area) in comparison to
+ 10
+12
+ W
+ /
+ m
+ 2– Unit: dB SIL (e.g. 60 dB SIL) – Useful for comparing sound levels for different distances for a given 
+sound power.
+ =
+ 10
+ SIL 10
+ log
+ Where                        
+=
+ Iref
+12
+ è 
+æ
+ ç ç
+ I
+ actual
+ I
+ ref
+ 10 m
+ W 2
+ 
+ ø 
+ö
+ ÷ ÷
+ 14
+ 
+Sound Intensity Level (SIL)
+ • The Inverse Square Law– The sound intensity per each unit area decreases in proportion to 
+the inverse square of the distance from the source.– This is because as the sound propagates its energy spreads over 
+the surface area of a sphere.
+ I = WSource
+ ASphere
+ = WSource
+ 4πr2
+ Source
+ 
+ r
+ r
+ 
+ W
+ W / 4 W / 4
+ W / 4
+ 15
+ W / 4
+Sound Intensity Level (SIL)
+ • The Inverse Square Law– Every time the distance from the source is doubled, the sound 
+intensity decreases by a factor of 4.– e.g. If the sound intensity at 2m distance was 0.1 W/m2, the 
+intensity at 4m would be 0.1 x ¼ = 0.025 W/m2.
+ I = WSource
+ ASphere
+ Source
+ = WSource
+ 4πr2
+ 
+ r
+ r
+ 
+ W
+ W / 4 W / 4
+ W / 4
+ 16
+ W / 4
+Sound Intensity Level (SIL)
+ • The Inverse Square Law vs. Sound Intensity Level– How much does the SIL decrease every time the distance from the 
+source is doubled?  6dB
+ log
+ 10 10-=
+ ç
+ è 
+æ
+ I = WSource
+ 4 
+1
+ Source
+ ASphere
+ = WSource
+ 4πr2
+ 
+ ÷
+ ø 
+ö
+ r
+ 6
+ dB
+ r
+ 
+ W
+ W / 4 W / 4
+ W / 4
+ 17
+ W / 4
+ 
+ Sound Intensity Level (SIL)
+ • Relationship between SWL and SIL.–If you know SWL, you can easily calculate SIL at a certain distance. 
+18
+ SIL=10log10
+ Iactual
+ Iref
+ !
+ "
+ # #
+ $
+ %
+ & &=10log10
+ Wactual
+ 4πr2
+ 10−12
+ !
+ "
+ #
+ #
+ #
+ $
+ %
+ &
+ &
+ &
+ =10log10
+ Wactual
+ 10−12×4πr2
+ !
+ " # $
+ % &
+ =10log10
+ Wactual
+ 10−12
+ !
+ " # $
+ % &−10log10
+ 4πr2 ( )
+ =SWL−10log10
+ 4πr2 ( )
+ SIL=10log10
+ Iactual
+ Iref
+ !
+ "
+ # #
+ $
+ %
+ & &=10log10
+ Wactual
+ 4πr2
+ 10−12
+ !
+ "
+ #
+ #
+ #
+ $
+ %
+ &
+ &
+ &
+ =10log10
+ Wactual
+ 10−12×4πr2
+ !
+ " # $
+ % &
+ =10log10
+ Wactual
+ 10−12
+ !
+ " # $
+ % &−10log10
+ 4πr2 ( )
+ =SWL−10log10
+ 4πr2 ( )
+ SIL=10log10
+ Iactual
+ Iref
+ !
+ "
+ # #
+ $
+ %
+ & &=10log10
+ Wactual
+ 4πr2
+ 10−12
+ !
+ "
+ #
+ #
+ #
+ $
+ %
+ &
+ &
+ &
+ =10log10
+ Wactual
+ 10−12×4πr2
+ !
+ " # $
+ % &
+ =10log10
+ Wactual
+ 10−12
+ !
+ " # $
+ % &−10log10
+ 4πr2 ( )
+ =SWL−10log10
+ 4πr2 ( )
+Sound Pressure Level (SPL)
+ • A logarithmic measure of the sound pressure in 
+comparison to the minimum audible pressure (20uPa). – Related to the perceived loudness of sound since human ears are 
+sensitive to pressure.
+ Not 10
+ =
+ SPL 10
+ 20
+ Where                         
+P
+ ref
+ =
+ log
+ 20
+ uPa
+ ç ç
+ è 
+æ
+ =
+ p 
+p
+ actual
+ ref
+ 20
+ ´
+ 
+ 10
+ ÷ ÷
+ ø 
+ö
+6
+ Pa
+ Source
+ 19
+ 
+ 
+ Sound Pressure Level (SPL)
+ • Obtain SPL from SIL
+ 20
+ SPL P
+ P
+ P
+ P
+ Z
+ P
+ Z
+ P
+ I
+ I SIL
+ Z
+ P I
+ ref
+ actual
+ ref
+ actual
+ ref
+ actual
+ ref
+ actual
+ = =
+ ÷ ÷
+ ø
+ ö
+ ç ç
+ è
+ æ =
+ ÷ ÷
+ ÷
+ ÷
+ ø
+ ö
+ ç ç
+ ç
+ ç
+ è
+ æ
+ = ÷ ÷
+ ø
+ ö
+ ç ç
+ è
+ æ =
+ =
+ 10
+ 2
+ 2
+ 10 2
+ 2
+ 10 10
+ 2
+ log 20
+ log 10 log 10 log 10
+ C 20 at air in  impedance acoustic  the s), m /( kg 416 is  where , 2 ° × Z
+ 
+ Sound Pressure Level (SPL)
+ • Sound pressure and SPL for some sound sources
+ (The measurement distance should be indicated!)
+ 21
+ Sound source Sound 
+pressure
+ SPL
+ Loud speech@1m 0.18Pa 79dB
+ Machine gun@1m 18Pa 119dB
+ Loudspeakerfor    
+rock concert@1m
+ 57Pa 129dB
+ Siren@1m 182Pa 139dB
+ Turbo jet
+ engine@1m
+ 575Pa 149dB
+ Rocket engine@1m 5753Pa 169dB
+Relationship among sound levels
+ • Rules of Thumb (for a point source)
+ 1. For a given sound power, SPL and SIL measured at the same 
+distance essentially have the same value. 
+SIL =SWL−10log10 
+4πr2
+ (
+ ) =SPL
+ SIL
+ 2. For a given sound power, SIL or SPL measured at 1m is always 
+11dB lower than SWL.
+ SIL or SPL @ 1m = SWL – 11dB
+ 3. Whenever the measurement distance is doubled, there is 6dB 
+reduction in SIL or SPL.
+ SIL or SPL @ 2m = SWL – 17dB
+ 
+ 22
+ 
+Relationship among sound levels
+ • Example: A point source has SWL of 120 dB.– What is SIL at 1m?– What is SPL at 2m?
+ Power 1W
+ 1m
+ 120 dB SWL
+ 1m
+ 109 dB SPL (=SIL)
+ 103 dB SPL (=SIL)
+ 
+ 23
+ 
+Addition of sounds
+ • Correlated sources– Identical sources (e.g. 
+Loudspeakers radiating the 
+same signal)
+ • Uncorrelated sources– Different sources (e.g. 
+Multiple singers)
+ 24
+ 
+ 
+Addition of sounds
+ • Total SPL for N “correlated” sources?
+ • First, we need to know the total pressure.– Simply add the pressures of all sources.
+ P
+ total correlated 
+(t) = P1
+ (t)+ P2
+ (t)+ P3
+ (t)+...+ PN
+ (t)
+ • Then calculate the SPL.
+ =
+ SPL 10
+ 20
+ log
+ ç ç
+ è 
+æ
+ p 
+p
+ actual
+ ref
+ 
+ ÷ ÷
+ ø 
+ö
+ 25
+ 
+Addition of sounds
+ • Total SPL for N “uncorrelated” sources?
+ • Total pressure = the square root of the addition of all 
+pressure power values
+ P
+ total uncorrelated 
+=
+ P
+ 1
+ 2 +P2
+ 2 +P3
+ 2 +...+PN
+ 2
+ • Then calculate the SPL.
+ =
+ SPL 10
+ 20
+ 
+ log
+ ç ç
+ è 
+æ
+ p 
+p
+ actual
+ ref
+ ÷ ÷
+ ø 
+ö
+ 26
+ 

@@ -1,0 +1,114 @@
+
+1
+
+Lecture 3
+Sinusoid
+NIE2249 Acoustics and Psychoacoustics
+
+Lecture 3 key points
+• After this lecture, you should be able to
+– Explain what phase and magnitude of a sinusoid are.
+– Apply phase delay to a sinusoidal function.
+– Explain the difference between the addition of
+correlated sinusoids and that of uncorrelated
+sinusoids.
+1
+
+Sinusoidal signals
+• Sinusoid is the simplest form of audio signal having a
+single frequency (i.e. a tone).
+2
+A : Peak amplitude
+T : Period (sec)
+f : Frequency (Hz)
+f = 1 / T
+Period T
+Time(sec)
+Amplitude
+2Hz
+
+Sinusoidal signals
+• Sinusoid is the simplest form of audio signal having a
+single frequency, referring to both sine and cosine waves.
+3
+A : Peak amplitude
+T : Period (sec)
+f : Frequency (Hz)
+f = 1 / T
+Amplitude
+Time(sec)
+4Hz
+
+Sinusoidal signals
+• Sinusoid is the simplest form of audio signal having a
+single frequency, referring to both sine and cosine waves.
+4
+A : Peak amplitude
+T : Period (sec)
+f : Frequency (Hz)
+f = 1 / T
+Time(sec)
+Amplitude
+8Hz
+
+Sinusoidal signals
+• Sinusoid is the simplest form of audio signal having a
+single frequency, referring to both sine and cosine waves.
+5
+A : Peak amplitude
+T : Period (sec)
+f : Frequency (Hz)
+f = 1 / T
+Time(sec)
+Amplitude
+16Hz
+
+Sinusoidal signals
+• Sinusoid is the simplest form of audio signal having a
+single frequency, referring to both sine and cosine waves.
+6
+A : Peak amplitude
+T : Period (sec)
+f : Frequency (Hz)
+f = 1 / T
+Time(sec)
+Amplitude
+32Hz
+
+Sinusoidal signals
+• Sinusoid is the fundamental element to form complex
+musical signals.
+7
+A : Peak amplitude
+T : Period (sec)
+f : Frequency (Hz)
+f = 1 / T
+Time(sec)
+Amplitude
+Total = 2Hz+4Hz+8Hz+16Hz+32Hz
+
+Sinusoidal signals
+• Fourier transform analyses the individual sinusoid
+components (amplitude and phase) that compose a
+complex sound.
+8
+Time(sec)
+Amplitude
+At a given time, different frequencies
+have different phases.
+
+Phase
+• Phase is a certain point of time in one period of a
+sinusoidal function (each frequency), expressed in angle.
+• In audio signal processing we use radian angle rather than
+degree to express phase.
+• Conversion between degree and radian
+9
+1 rad = 180° /
+π
+Degree 0° 45° 90° 180° 360°
+Radian 0 4/
+p 2/
+p p p2
+, where
+π = 3.14

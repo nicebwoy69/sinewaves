@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial 3: Psychoacoustics and Loudness Perception</title>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        .formula {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 0.85em;
+            text-align: center;
+            margin: 10px 0;
+            max-width: 100%;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+        .note {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Tutorial 3: Psychoacoustics and Loudness Perception</h1>
+
+<h2>1. Introduction to Loudness Perception</h2>
+<p><b>Overview of Psychoacoustics:</b></p>
+<ul>
+    <li><b>Psychoacoustics</b> is the study of how humans perceive sound, encompassing aspects such as loudness, pitch, spatial perception, and timbre.</li>
+    <li>Loudness perception is influenced by factors like frequency, amplitude, sound duration, and the listener's individual hearing sensitivity.</li>
+</ul>
+
+<p><b>Loudness vs. Sound Pressure Level (SPL):</b></p>
+<ul>
+    <li>While <b>SPL</b> measures the physical pressure of sound waves, loudness is the subjective perception of that sound pressure by humans.</li>
+    <li>This distinction explains why sounds with the same SPL can be perceived differently depending on their frequency and the human ear’s sensitivity across the frequency range.</li>
+</ul>
+
+<p class="note">Understanding loudness perception is crucial in audio engineering and design to create audio that aligns with how humans naturally hear.</p>
+
+<h2>2. Frequency Weighting (dBA, dBC, etc.)</h2>
+<p><b>Introduction to Frequency Weighting:</b></p>
+<ul>
+    <li>Humans are more sensitive to mid-range frequencies (approximately 1-5 kHz), where speech is most prominent.</li>
+    <li><b>Frequency weighting</b> curves, such as A-weighting and C-weighting, adjust SPL measurements to approximate the human ear’s response more accurately.</li>
+</ul>
+
+<h3>Common Weighting Curves:</h3>
+<ul>
+    <li><b>A-weighting (dBA):</b> Emphasizes mid-range frequencies and reduces low and high frequencies. This curve is commonly used in environmental and workplace noise measurement, as it aligns well with human perception at moderate volumes.</li>
+    <li><b>C-weighting (dBC):</b> Includes more low and high frequencies and is used for measuring high-intensity sounds, such as in concerts or industrial settings.</li>
+</ul>
+
+<h3>Chart of Weighting Curves</h3>
+<p>Below is a chart illustrating dBA and dBC weighting curves across frequencies, showing how A-weighting suppresses low and high frequencies compared to C-weighting:</p>
+<p><b>Chart (Placeholder)</b>: Use this space to insert a chart that visually demonstrates the difference in response between A-weighting and C-weighting across the frequency range.</p>
+
+<p class="note">A-weighting is widely adopted in regulations for workplace noise, while C-weighting is often used in environments with high-intensity sounds, like concerts.</p>
+
+
+
+<h2>3. Equal Loudness Contours and Loudness Perception</h2>
+
+<p><b>Equal Loudness Contours (Phon Scale):</b></p>
+<ul>
+    <li><b>Equal loudness contours</b> depict how the human ear perceives sounds of different frequencies as equally loud, depending on SPL.</li>
+    <li>These contours serve as the basis for the <b>Phon scale</b>, which measures loudness relative to a reference 1 kHz tone.</li>
+    <li>For example, a sound at 50 Phons has the same perceived loudness as a 50 dB SPL sound at 1 kHz, even if it requires a higher dB SPL at other frequencies to achieve that perception.</li>
+</ul>
+
+<h3>Explanation of the Phon Scale:</h3>
+<ul>
+    <li>The Phon scale adjusts loudness levels across frequencies based on a reference SPL of a 1 kHz tone.</li>
+    <li>Example: A 1 kHz tone at 50 dB SPL is perceived as equally loud as a 100 Hz tone at a higher dB SPL, due to the ear's reduced sensitivity to low frequencies.</li>
+</ul>
+
+<h3>Sone Scale for Loudness Perception:</h3>
+<ul>
+    <li>The <b>Sone scale</b> provides a more direct measurement of perceived loudness. On this scale, each doubling in Sones corresponds to a doubling in perceived loudness.</li>
+    <li>For instance, a sound rated at 2 Sones is perceived as twice as loud as a sound at 1 Sone.</li>
+</ul>
+
+<h3>Chart of Equal Loudness Contours:</h3>
+<p>The chart below illustrates equal loudness contours across frequencies, showing how sensitivity varies across different SPL levels:</p>
+<p><b>Chart (Placeholder):</b> This chart visually represents equal loudness contours, with sensitivity peaks in the 1-5 kHz range and reduced sensitivity at very low or very high frequencies.</p>
+
+<p class="note">These contours and scales help audio engineers design systems that deliver consistent loudness across various frequencies, enhancing listener comfort and sound quality.</p>
+
+<h2>4. Practical Applications of Loudness Perception</h2>
+
+<p><b>Applications in Audio Engineering:</b></p>
+<ul>
+    <li><b>Mixing and Mastering:</b> Understanding loudness perception is essential for achieving balanced sound across frequencies. Engineers often use A-weighting or C-weighting to simulate how listeners perceive loudness in different environments.</li>
+    <li><b>Noise Control:</b> Weighting curves and loudness scales help in setting regulatory standards for noise exposure that align with human perception of loudness, such as in workplace safety and community noise ordinances.</li>
+</ul>
+
+<h3>Example Scenarios Using Weighting and Loudness Scales:</h3>
+<ul>
+    <li><b>Workplace Noise:</b> A-weighted measurements (dBA) are standard for assessing workplace noise, as they accurately gauge perceived loudness at moderate levels, aligning with human sensitivity.</li>
+    <li><b>Concert and Event Sound Levels:</b> C-weighted measurements (dBC) are more appropriate for high-intensity environments, like concerts, where low-frequency content is prominent and needs to be included for realistic loudness perception.</li>
+</ul>
+
+<h2>5. Summary and Key Takeaways</h2>
+<p><b>Review of Key Concepts:</b></p>
+<ul>
+    <li><b>Frequency Weighting</b> compensates for the human ear’s varying sensitivity across different frequencies, with dBA and dBC being the most common curves used in practice.</li>
+    <li><b>Equal Loudness Contours</b> explain how sounds of different frequencies are perceived as equally loud at different SPLs, forming the foundation for the Phon and Sone scales.</li>
+    <li>The <b>Phon and Sone Scales</b> provide quantifiable measures of perceived loudness, enabling more accurate audio design and noise control.</li>
+</ul>
+
+<p><b>Practical Relevance:</b> A solid understanding of loudness perception and weighting is crucial in audio engineering, allowing engineers and regulators to measure sound in ways that align with human hearing, leading to more accurate sound design and safety standards.</p>
+
+</body>
+</html>
+
+
+
+
+
+
+</body>
+</html>

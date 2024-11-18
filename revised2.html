@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial 2: Point Source Assumptions and Sound Propagation</title>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        .formula {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 0.85em;
+            text-align: center;
+            margin: 10px 0;
+            max-width: 100%;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+        .note {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Tutorial 2: Point Source Assumptions and Sound Propagation</h1>
+
+<h2>1. Introduction to Point Sources and Sound Propagation</h2>
+<p><b>Overview:</b></p>
+<ul>
+    <li>A <b>point source</b> is an idealized sound source that radiates sound equally in all directions, creating a spherical wavefront as it moves outward.</li>
+    <li>This assumption greatly simplifies calculations in sound propagation models, making it useful in various acoustical scenarios.</li>
+    <li>Spherical wave propagation reflects how sound spreads uniformly from a point source, decreasing in intensity as it travels farther due to the dispersion of energy over an increasing surface area.</li>
+</ul>
+
+<p><b>Practical Use:</b> Point source models are effective for calculating sound levels in environments such as open fields, large rooms, and certain product testing setups where a uniform radiation pattern is assumed.</p>
+
+<h2>2. The Inverse Square Law in Sound Propagation</h2>
+<p><b>Explanation of the Inverse Square Law:</b></p>
+<ul>
+    <li>The <b>Inverse Square Law</b> states that sound intensity decreases as the distance from the source increases, specifically by a factor of four (approximately 6 dB) for each doubling of distance.</li>
+    <li>For a point source, this law applies because sound energy disperses over the surface area of an expanding sphere, reducing intensity as the distance increases.</li>
+</ul>
+
+<p>The sound intensity level (SIL) at a given distance can be calculated using the following formula:</p>
+
+<div class="formula">
+    \[ SIL = SWL - 10 \log_{10} \left( 4 \pi r^2 \right) \]
+</div>
+
+<p><b>Where:</b></p>
+<ul>
+    <li><b>r</b>: Distance from the sound source (in meters).</li>
+    <li><b>SWL</b>: Sound Power Level of the source.</li>
+</ul>
+
+<h3>Example Calculation</h3>
+<p>Let’s calculate the SIL at various distances from a point source loudspeaker with an SWL of 100 dB.</p>
+
+<ul>
+    <li>At 1 meter: 
+        <div class="formula">
+            \[ SIL = 100 - 10 \log_{10} \left( 4 \pi \times 1^2 \right) = 100 - 10 \log_{10} (12.57) = 88.99 \, \text{dB} \]
+        </div>
+    </li>
+    <li>At 2 meters:
+        <div class="formula">
+            \[ SIL = 100 - 10 \log_{10} \left( 4 \pi \times 2^2 \right) = 100 - 10 \log_{10} (50.27) = 82.99 \, \text{dB} \]
+        </div>
+    </li>
+    <li>At 4 meters:
+        <div class="formula">
+            \[ SIL = 100 - 10 \log_{10} \left( 4 \pi \times 4^2 \right) = 100 - 10 \log_{10} (201.06) = 76.99 \, \text{dB} \]
+        </div>
+    </li>
+</ul>
+
+<h3>Chart for SIL over Distance</h3>
+<p>This chart below illustrates the drop in SIL as distance increases, showing the approximate 6 dB reduction for each doubling of distance.</p>
+
+<p class="note">Tip: The Inverse Square Law provides an intuitive way to predict sound level changes with distance, particularly useful in designing sound systems and estimating noise levels in open areas.</p>
+
+
+<h2>3. Sound Radiation Patterns and Practical Implications</h2>
+
+<p><b>Sound Radiation from Point vs. Directional Sources:</b></p>
+<ul>
+    <li><b>Point Source Radiation:</b> A point source radiates sound equally in all directions, creating a spherical wavefront. This assumption simplifies sound propagation models, especially in open or unobstructed environments.</li>
+    <li><b>Directional Source Radiation:</b> Some sound sources, like loudspeakers, project sound more strongly in specific directions. In these cases, the energy is not distributed equally, requiring a more complex propagation model to accurately represent sound behavior.</li>
+</ul>
+
+<h3>Diagram of Point vs. Directional Radiation</h3>
+<p>A visual distinction between point source radiation and directional source radiation can aid understanding:</p>
+<ul>
+    <li>A <b>spherical wave</b> diagram represents sound radiating equally from a point source.</li>
+    <li>A <b>directional pattern</b> diagram shows sound projected primarily in a specific direction, illustrating the concentrated energy pattern.</li>
+</ul>
+
+<p class="note">Directional sources are commonly used in audio applications like live sound reinforcement, where sound is directed toward an audience rather than radiating uniformly.</p>
+
+<h3>Using the Dodecahedron Loudspeaker as a Point Source</h3>
+<p><b>Overview:</b> In controlled environments, such as testing rooms or sound labs, a <b>dodecahedron loudspeaker</b> (a speaker with multiple facets) is used to approximate point source behavior.</p>
+<p>This type of loudspeaker radiates sound nearly equally in all directions, making it ideal for <b>room acoustic measurements</b> and <b>environmental noise assessments</b> where a true point source is required.</p>
+
+<h3>Real-World Application Example: Room Acoustics</h3>
+<p>In room acoustics, engineers often use point source assumptions to predict sound levels at various locations in a room. This approach helps determine optimal speaker placement for balanced sound coverage.</p>
+
+<h4>Example Calculation: Sound Level in a Room</h4>
+<p>Suppose a loudspeaker with an SWL of 90 dB is placed at one end of a 10-meter-long room. To estimate the SPL at a point 10 meters away, we calculate:</p>
+
+<div class="formula">
+    \[ SPL = SWL - 10 \log_{10} \left( 4 \pi \times 10^2 \right) \]
+</div>
+
+<p>Substituting values:</p>
+<div class="formula">
+    \[ SPL = 90 - 10 \log_{10} (1256.64) = 90 - 31 = 59 \, \text{dB} \]
+</div>
+
+<p>This calculation helps acousticians position speakers to ensure even sound levels across the room, improving sound quality and listener experience.</p>
+
+<h2>4. Summary and Key Takeaways</h2>
+<p><b>Review of Key Concepts:</b></p>
+<ul>
+    <li><b>Point Sources</b> are idealized models that assume sound radiates equally in all directions, forming a spherical wavefront.</li>
+    <li>The <b>Inverse Square Law</b> predicts that sound intensity decreases by approximately 6 dB for each doubling of distance from a point source.</li>
+    <li><b>Sound Radiation Patterns</b> vary between point sources and directional sources, influencing sound coverage and energy distribution.</li>
+</ul>
+
+<p><b>Practical Use of Point Source Models:</b> Point source assumptions guide speaker placement and acoustic design in open fields, large rooms, and testing environments, helping to predict sound levels accurately.</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

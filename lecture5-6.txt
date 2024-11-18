@@ -1,0 +1,448 @@
+
+ Lecture 5-6
+ Loudness Perception
+ 
+ 
+Lecture 5-6 key points
+ • After this lecture, you should be able to:– Explain what Equal Loudness Contour is.– Explain the difference between Phon and Sone.– Explain the effects of bandwidth and duration of sound on perceived 
+loudness.
+ 
+ 1
+ 
+Loudness level
+ • Perceived Loudness vs. Sound Level
+ 100Hz  
+vs.
+ 4kHz 
+• Sound level (e.g. SPL) is NOT a direct measure for perceived 
+loudness.
+ • Perceived loudness is a subjective quantity and depends on the 
+frequency, bandwidth, amplitude and duration of sound.
+ 
+ 2
+ 
+Loudness level
+ • Audibility threshold– Human cannot perceive 
+sounds at SPLs below the 
+audibility threshold.– Varies with different 
+frequencies. – Peaks and dips à due to 
+the resonances of outer ear.– Human ears are most 
+sensitive at around 3.4kHz.
+ 130
+ 120
+ 110
+ 100
+ 90
+ 80
+ 70
+ Sound Pressure Level (dB)
+ 60
+ 50
+ 40
+ 30
+ 20
+ 10
+ 0-10
+ 3
+ Audibility threshold
+ 16
+ 63
+ 125
+ 250
+ 31.5 4k 2k
+ 500
+ 1k 8k16k
+ Frequency (Hz)
+ 
+ 
+Loudness level
+ • Equal loudness contours– Obtained by adjusting the 
+levels of different frequency 
+tones to give a loudness 
+match to the reference 1kHz 
+tone at a given level.
+ http://www.phys.unsw.edu.au/jw
+ /hearing.html– First reported by Fletcher and 
+Munson in 1933.
+ 
+ 130
+ 120
+ 110
+ 100
+ 90
+ 80
+ 70
+ 60
+ 50
+ 40
+ 30
+ Sound Pressure Level (dB)
+ 20
+ 10
+ 0
+ Audibility threshold
+ 16-10 500
+ 63
+ 125
+ 250
+ 31.5 4k 2k
+ 1k 8k16k
+ Frequency (Hz)
+ 4
+ 
+Loudness level
+ • Phon– Unit of ‘loudness level’– SPL measured at 1kHz– As the loudness level  
+increases, the equal 
+loudness contour becomes 
+flatter.– Ear becomes more sensitive 
+to extreme LF and HF at 
+greater phons. 
+130
+ 120
+ 110
+ Sound Pressure Level (dB)
+ 100
+ 90
+ 80
+ 70
+ 60
+ 50
+ 40
+ 30
+ 20
+ 10
+ 0-10
+ 5
+ 100
+ 90
+ 80
+ 70
+ 60
+ 50
+ 40
+ 30
+ 20
+ 10 phons
+ Audibility threshold
+ 16
+ 63
+ 125
+ 250
+ 31.5 4k 2k
+ 500
+ 1k 8k16k
+ Frequency (Hz)
+ 
+ 
+Loudness level
+ • Phon– Mixing– Hearing aid– Loudness EQ– Frequency weighting for 
+SPL measurement 
+130
+ 120
+ 110
+ Sound Pressure Level (dB)
+ 100
+ 90
+ 80
+ 70
+ 60
+ 50
+ 40
+ 30
+ 20
+ 10
+ 0-10
+ 6
+ 100
+ 90
+ 80
+ 70
+ 60
+ 50
+ 40
+ 30
+ 20
+ 10 phons
+ Audibility threshold
+ 16
+ 63
+ 125
+ 250
+ 31.5 4k 2k
+ 500
+ 1k 8k16k
+ Frequency (Hz)
+ 
+ 
+Frequency weighting
+ • Frequency weighting – Applied for SPL metres to 
+compensate for the variation 
+of the ear’s sensitivity for 
+different frequencies.
+ • A-weighting (dBA)– Most commonly used.– Suitable for sounds with 
+medium/low absolute levels, 
+but can be used for any 
+purpose.
+ 7
+ 
+ 
+Frequency weighting
+ • C-weighting (dBC)– More accurate for sounds 
+with more low frequencies.
+ e.g. Machinery noise
+ • B-weighting (dBB)– Compromise between A and 
+C weightings.
+ • D-weighting (dBD)– Specifically used for 
+measuring high aircraft noise.
+ 
+ 8
+ 
+Perceived loudness
+ • Sone– Unit of ‘perceived loudness’– A doubling of the number of 
+sones corresponds to a 
+doubling of the perceived 
+loudness.
+ Sones
+ (
+ 2
+ = Phons
+ e.g. 40 phons = 1 sone– Increasing phons by 10 (10 dB 
+SPL increase at 1kHz)  leads 
+to double loudness.
+ 
+40
+ )
+ /
+ 10
+ 9
+ 
+Perceived loudness
+ • Just noticeable difference (JND) in amplitude– Perceived loudness resolution– Depends on the type of signal.– Broadband noise: 0.5 ~ 1dB for sound levels at 20 ~ 100dB(SPL)– 1kHz sinusoid: 3dB at 10dB(SPL), 0.3dB at 80dB(SPL)– In general, JND in amplitude is about 1dB.
+ 
+ 10
+ 
+Effect of bandwidth on loudness 
+• For a fixed sound energy, perceived loudness remains constant 
+for bandwidths less than the critical bandwidth for loudness 
+(CBL)
+ • Beyond CBL, loudness increases as the bandwidth becomes 
+wider.
+ 1kHz
+ Increasing BW
+ Critical band for loudness
+ Noise centred at 1kHz with its bandwidth 
+varying at a constant power
+ 
+ 11
+ 
+Effect of bandwidth on loudness 
+• For a fixed sound energy, perceived loudness remains constant 
+for bandwidths less than the critical bandwidth for loudness 
+(CBL)
+ • Beyond CBL, loudness increases as the bandwidth becomes 
+wider.
+ Ref 1kHz tone
+ Perceived loudness
+ Centre frequency = 1kHz
+ CBL
+ 50 100 150 200 300 400 500
+ Noise Bandwidth(Hz)
+ 
+ 1000
+ 12
+ 
+Effect of bandwidth on loudness 
+• As the bandwidth of a sound increases, more critical bands (or 
+auditory filters) are stimulated.
+ àThis gives rise to a sensation of greater loudness.
+ Ref 1kHz tone
+ Perceived loudness
+ Centre frequency = 1kHz
+ CBL
+ 50 100 150 200 300 400 500
+ Noise Bandwidth(Hz)
+ 
+ 1000
+ 13
+ 
+Effect of bandwidth on loudness 
+• However, at very low SPLs (10 ~ 20 dB SPL) perceived 
+loudness is independent of bandwidth.
+ Ref 1kHz tone
+ Perceived loudness
+ Centre frequency = 1kHz
+ CBL
+ 50 100 150 200 300 400 500
+ Noise Bandwidth(Hz)
+ 
+ 1000
+ 14
+ 
+Effect of duration on loudness
+ • At a given intensity loudness increases with duration for up to 
+100~200ms.
+ • Perception of full loudness takes time to build up.
+ àCognitive process
+ Relative loudness
+ 1
+ 10
+ 
+ 100 200
+ Duration (ms)
+ 1000
+ 15
+ 
+Hearing impairments 
+• Loss of sensitivity– Short term exposure to noise could cause a temporary shift in 
+hearing threshold.– This can become permanent in case of long term or repeated 
+exposure. 
+Reduction of sensitivity(dB)
+ 40
+ 30
+ 20
+ 10
+ 0
+ 1
+ Time of exposure (minutes)
+ 
+ 106dB
+ 100dB
+ 94dB
+ 88dB
+ 10
+ 100
+ 16
+ 
+Loudness level
+ • With long term exposure 
+to loud noise, the absolute 
+audibility threshold is 
+shifted upwards and it 
+takes some time for the 
+original threshold to be 
+fully recovered.
+ 130
+ 120
+ 110
+ Sound Pressure Level (dB)
+ 100
+ 90
+ 80
+ 70
+ 60
+ 50
+ 40
+ 30
+ 20
+ 10
+ 0-10
+ Audibility threshold
+ 16
+ 63
+ 125
+ 250
+ 31.5 4k 2k
+ 500
+ 1k 8k16k
+ Frequency (Hz)
+ 
+ 17
+ 
+ 
+ Hearing impairments 
+• Loss of frequency selectivity–The more exposed to excessive noise, the lower the sensitivity to 
+different frequencies becomes.–The critical band becomes wider àMore difficult to distinguish 
+between different frequencies.
+ 18
+ Frequency
+ 0
+ 10
+ 30
+ 20
+ 40
+ Normal
+ Exposed
+ More exposed
+ Relative response
+Hearing impairments 
+• Tinnitus– The cochlea generates noise spontaneously.– Tone, buzzing, wind-like noise, hissing, etc.– Caused by exposure to loud and excessive noises, or a middle ear 
+infection, or earwax.
+ 
+ 19
+ 
+ 
+ Hearing impairments 
+• “Normal hearing”ranges from 0 to 20 dB HL (Hearing 
+Level) in all frequencies. 
+20 1
+ What Is the Difference between dB IL and dB SPL?  
+ As stated in the previous section, a common method to express the magnitude of 
+a sound is in decibels sound pressure level or dB SPL, for which the reference is 
+ . A less common method to express sound intensity is in acous
+tic power by using decibels intensity level, or  dB IL . The reference for dB IL is 10 −16  
+ . According to  Gulick, Gescheider, and Frisina (1989) , “a dangerously intense 
+sound would represent a power of only about 0.0024 watt” (p. 46). As a result, it is 
+cumbersome to measure the incredibly small amounts of power associated with 
+olds across frequency in dB 
+SPL, corresponding to 0 dB 
+HL. For example, at 125 Hz: 
+0 dB HL = 45 dB SPL, and at 
+1000 Hz: 0 dB HL = 7 dB SPL.
+       (From: Roeser, R. J., & Clark, J. L. (2007). 
+Pure-tone tests. In R. J. Roeser, M. Valente, 
+Audiology: Diag
+. 2nd ed. (pp. 238–260). New York: 
+SPL
+ Absolute hearing 
+threshold
+ (0dB HL)
+Hearing impairments 
+• “Normal hearing” ranges from 0 to 20 dB HL (Hearing 
+Level) in all frequencies. 
+0
+ 10
+ Hearing Level (dB HL)
+ 20
+ 30
+ 40
+ 50
+ 60
+ 70
+ 80
+ 90
+ 
+ 21
+ 
+Hearing impairments 
+• Protecting ears – Long term and constant exposure to noises that have SPL greater 
+than 90 dB(A) can cause permanent hearing damage.– European legislation 
+• First action level: 80dB (A) – Employees can request hearing 
+protection.
+ • Second action level: 85dB(A) – Employers must provide 
+employees with hearing protections.– Listen to music at lower levels.– Take a rest after a certain period of listening.– Use a hearing protector when exposed to loud sounds
+ 
+ 22
+ 
+Hearing impairments 
+• Protecting ears– Maximum exposure time 
+10.00
+ Max exposure time (Hours)
+ 1.00
+ 0.10
+ 0.01
+ 85
+ 90
+ 95
+ 8 hour at 85dB(A)
+ 4 hour at 88dB(A)
+ 2 hour at 91dB(A)
+ 1 hour at 94dB(A)
+ 100
+ 105
+ 110
+ Noise Level (dB (A)) 
+23
+ 115
+ 120
+ 
+ 

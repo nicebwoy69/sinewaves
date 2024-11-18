@@ -1,0 +1,425 @@
+Auditory Localisation
+ 0
+ 
+ 
+Lecture 6 key points
+ • After this lecture, you should be able to – Explain the three main cues for human sound localisation in 
+relation to frequency.– Explain what Head Related Transfer Function (HRTF) means 
+and its role.
+ 1
+ 
+ 
+Sound source
+ Auditory localisation
+ • Human auditory localisation relies on 
+‘three’ main cues:
+ • Interaural Time Difference (ITD)
+ • Interaural Level Difference (ILD)
+ • Pinnae Cue: Head Related Transfer Function 
+(HRTF)
+ 2
+ 
+ 
+Interaural Time Difference (ITD)
+ • As the source angle increases from 0 to 90°, the ITD 
+increases almost linearly from 0 to 0.68ms.
+ Interaural Time Difference (ms)
+ 0.6
+ 0.5
+ 0.4
+ 0.3
+ 0.2
+ 0.1
+ 0
+ 0
+ 10
+ 20
+ 30
+ 40
+ 50
+ 60
+ 70
+ 80
+ Source angle (degrees)
+ 3
+ 90
+ 100110 120130140150160170
+ 
+ 180
+ 
+ITD and IPD
+ • The human localisation mechanism uses the interaural 
+phase difference (IPD) caused by ITD to localise the 
+source position.
+ IPD = 0.85 radians
+ Left ear
+ 200Hz
+ q 2
+ = p
+ f ×
+ t
+ ITD 0.68ms
+ Right ear
+ 4
+ 
+ 
+Phase ambiguity problem for IPD
+ • At frequencies above approximately 735Hz (where the 
+period is twice the max ITD), IPD cues become 
+ambiguous. 
+IPD = pi
+ Left ear
+ 735Hz
+ q 2
+ = p
+ f ×
+ t
+ ITD 0.68ms
+ Right ear
+ 5
+ Phase reversed
+ 
+ 
+Phase ambiguity problem
+ • Above approximately 1.5kHz, IPD (or ITD) cues have no 
+effect on localisation. (our brain cannot resolve a fine 
+difference in phase.)
+ IPD = 2 x pi 
+Left ear
+ 1470Hz
+ q 2
+ = p
+ f ×
+ t
+ ITD 0.68ms
+ Right ear
+ 6
+ Identical phase !
+ 
+ 
+Binaural beats
+ • If two tones with slightly different frequencies below 
+about 735Hz are presented at each ear, one can 
+perceive a sensation of ‘beats’.
+ • This effect disappears at higher frequencies because in 
+binaural hearing the ear is not able to process the 
+alternating phase difference between the two 
+frequencies.
+ • Monaural beats can be observed over the whole audible 
+frequency range! 
+7
+ 
+ 
+Binaural beats
+ % Binaural beats
+ % Try f1 and f2 at frequencies below 735Hz or above
+ % e.g. 300Hz and 320Hz vs. 1000Hz and 1020Hz
+ % Compare the stereo and mono outputs.
+ fs = 48000;
+ t = 0: 1/fs: 2;
+ f1 = 300;
+ f2 = 320;
+ tone1 = 0.5*sin(2*pi*f1*t);
+ tone2 = 0.5*sin(2*pi*f2*t);
+ % stereo and mono outputs
+ out_stereo = [tone1’ tone2’]; 
+out_mono = tone1’ + tone2’; 
+sound(out_stereo, fs)
+ 8
+ Binaural beats
+ L = 300Hz
+ R = 320Hz
+ L = 1000Hz
+ R = 1020Hz
+ Monoaural beats
+ L = 1000+1020Hz
+ R = 1000+1020Hz
+ 
+ 
+Sound 
+source
+ Interaural Level Difference (ILD)
+ • At low frequencies, 
+wavelengths are longer than 
+the diameter of a head.
+ • The air pressure variation is 
+detected by two ears at a 
+very similar level.
+ àThere is no meaningful ILD.
+ 9
+ Low frequency
+ Wavelength
+ 
+ 
+Sound 
+source
+ Interaural Level Difference (ILD)
+ • At frequencies above 
+approximately 630Hz (where 
+the wavelength is shorter than 
+three times the head 
+diameter), a ‘head shadow’ 
+effect occurs.
+ àILD cues become useful.
+ 10
+ Head shadow effect
+ High frequency
+ Wavelength
+ 
+ 
+Interaural Level Difference (ILD)
+ • The range of ILD is from 0dB to 20dB depending on the 
+frequency and the source angle.
+ 20
+ Interaural level difference (dB)
+ 15
+ 10
+ 5
+ 0
+ 
+ 10kHz
+ 5kHz
+ 1kHz
+ 250Hz
+ 0°
+ 10°
+ 20°
+ 30°
+ 40°
+ 50°
+ 60°
+ 70°
+ 80°
+ 90°
+ Azimuthal position of sound source
+ 
+ 11
+Duplex theory
+ • In summary, auditory localisation of ‘pure tones’ relies on 
+ITD cues at low frequencies and ILD cues at high 
+frequencies. (Proposed by Lord Rayleigh in 1907.)
+ ITD
+ Phase delay
+ detection
+ Transition
+ ILD
+ Head 
+shadow
+ effect
+ 0
+ 700
+ 1.5k
+ Frequency (Hz)
+ 20k
+ 
+ 
+Challenges to the duplex theory
+ • Note that the duplex theory is only applied for pure 
+tones!  
+• For complex sound sources (e.g. musical instruments) 
+ITD can be detected at higher frequencies. 
+(The localisation mechanism makes use of the low 
+frequency ‘envelope’ of high frequencies to detect ITDs.)
+ 1
+ 0.8
+ 0.6
+ 0.4
+ 4000 + 4050Hz
+ 0.2
+ 0-0.2-0.4-0.6-0.8-1
+ 0
+ 0.005
+ 0.01
+ 0.015
+ 0.02
+ 0.025
+ 0.03
+ 0.035
+ 0.04
+ 1
+ 0.8
+ 0.6
+ 0.4
+ 0.2
+ 0-0.2-0.4-0.6-0.8-1
+ 0
+ 0.005
+ 0.01
+ 0.015
+ 0.02
+ 0.025
+ 0.03
+ 0.035
+ 0.04
+ 
+ 
+Minimum audible angle (MAA)
+ • Resolution of audible angular difference decreases as 
+the source position moves from the front to the side.
+ 
+ 
+The cone of confusion
+ • The ITD and ILD model alone cannot explain front-back 
+or vertical localisation.– Without pinna, multiple locations would produce identical ITD 
+and ILD (Cone of confusion).– The duplex theory is valid only for horizontal -90°to 90° . 
+A
+ D
+ C
+ B
+ A and B produce similar ILD and ITD.
+ C and D produce similar ILD and ITD.
+ 
+ 
+Pinna effects
+ • The complex shape of pinna provides different frequency 
+responses (spectra) for sounds coming from different 
+directions in three dimensions.
+ àThis enables us to resolve front-back and vertical directions 
+even with just one ear.
+ 
+ 
+Pinna effects
+ • The complex shape of pinna provides different frequency 
+responses (spectra) for sounds coming from different 
+directions in three dimensions.
+ àThis enables us to resolve front-back and vertical directions 
+even with just one ear.
+ 
+ 
+Head Related Transfer Function
+ • The frequency response of ear input signal filtered by 
+pinna is called ‘HRTF’ (Head Related Transfer Function).– The HRTFs for left and right ears differ from each other for a 
+given source angle, .– The characteristics of HRTFs become most dominant at above 
+5kHz (Peaks and dips)
+ Left
+ Right
+ S
+ 18
+ 
+ 
+Updates to the duplex theory
+ • Above about 5kHz localisation is mainly governed by the 
+pinna effect.
+ ITD
+ Phase
+ detection
+ Transition
+ ILD
+ HRTF
+ Head 
+Shadow
+ effect
+ Pinna
+ effect
+ 0
+ 700
+ 1.5k
+ Frequency (Hz)
+ 5k
+ 20k
+ 
+ 
+Head Related Transfer Function
+ Left ear HRTF
+ Right ear HRTF
+ Source at the left
+ Source at the right
+ 20
+ 
+ 
+Head Related Transfer Function
+ • Torso (shoulder) reflection also affects the HRTF.
+ LEE
+ • Notch is created due to comb-filter effect from the direct 
+sound and shoulder reflection.
+ 30
+ 20
+ 10
+ Magnitude (dB)
+ 0-10-20-30-40-50
+ 
+ For 90° elevation in the median plane
+ subject 002
+ subject 003
+ subject 008
+ subject 015
+ 63 125 250 500 1 k 2 k 4 k 8 k 16 k
+ Frequency (Hz)
+ 21
+ 
+ Fig. 11. The ear-input spectra of a phantom center source from
+ the 90 loudspeaker base angle for four different subjects, taken
+ subjects taken from the SADIE HRIR database
+ individual differences observed at frequencies above 3 kHz
+ indicate that the effect of pinnae-related cue on the phan
+tomimageelevation effect might be subject-dependent. For
+ example, the spectrum for the subject 003 appears to have
+ aminimalmagnitudedifferencebetween4kHzand8kHz
+ compared to the other subjects. This seems to suggest that
+ for this subject the directional band weighting claimed by
+ Blauert would not be an effective cue for the elevation ef
+fect. In addition, the subjective result showing the response
+ spread across “above front,” “above,” and “above back”
+ might also be associated with the inter-subject variability
+ in pinnae-related spectrum.
+ On the other hand, the crosstalk-related notch frequen
+cies in the low frequency region appear to be relatively
+ consistent across all of the four subjects in Fig. 11. This
+Measuring HRTF
+ • A HRTF is the frequency 
+domain transform of a time 
+domain ‘Head Related Impulse 
+Response’ (HRIR).– HRIR à FFT à HRTF– The most common method is to 
+measure HRIRs for different 
+directions in an anechoic chamber.– Personal HRIRs using in-ear 
+microphones.– General HRIRs using a dummy 
+head with a torso simulator.
+ 22
+ 
+ 
+Head Related Transfer Function
+ • HRTFs are highly individual like the finger print.
+ 
+ 
+ 23
+ 
+ Head Related Transfer Function
+ • Individual HRTFs can be measured using a miniature 
+microphone inserted in the ear canal. 
+• A very time consuming process to measure all directions 
+with a high angular resolution.
+ 24
+ but only one had experience in localisation in VADs. These will be referred to as follows, HL 
+(participant with the most experience in this type of test), DJ and MM (participants with little 
+experience in this type of test but with a great deal of listening test experience). 
+Ear Impressions 
+acquiring the HRTF measurements, 
+individualised ear impressions were made of each test 
+participant’s left and right ears. In order to acquire 
+these measurements, participants were first required to 
+otoscopy by a hearing professional to 
+ensure that no obtrusions such as cerumen were 
+blocking the pathway to the tympanic membrane. 
+then created by a professional 
+audiologist. These were made out of polyvinyl 
+Figure 2. Ear impressions inserted into the ear of 
+subject DJ before microphone insertion. 
+Head Related Transfer Function
+ • Individual HRTF could be 
+modelled based on the person’s 
+anthropometric data.
+ • The HRTF depends on the size 
+and shape of the pinnae, ear to 
+neck distance, etc.
+ • Identify which parts of the ear 
+and torso cause peaks and 
+notches at specific frequencies.
+ 
+ 25
+ 
+Head Related Transfer Function
+ • Quick HRTF modeling using a mobile phone camera.
+ • Based on machine learning using anthropometric data.
+ 
+ 
+ 26

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial 2: Point Source Assumptions and Sound Propagation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        .formula {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 0.85em;
+            text-align: center;
+            margin: 10px 0;
+            max-width: 100%;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+        .note {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Tutorial 2: Point Source Assumptions and Sound Propagation</h1>
+
+<h2>1. Introduction to Point Sources and Sound Propagation</h2>
+<p><strong>Overview</strong>:</p>
+<ul>
+    <li>A <strong>point source</strong> in acoustics is an idealized sound source that radiates sound equally in all directions, forming a spherical wavefront as it moves outward.</li>
+    <li>This assumption simplifies calculations in sound propagation models and is useful in environments like open fields, large rooms, and certain product testing setups.</li>
+</ul>
+
+<h2>2. The Inverse Square Law in Sound Propagation</h2>
+<p><strong>Explanation of the Inverse Square Law</strong>:</p>
+<ul>
+    <li>The <strong>Inverse Square Law</strong> describes how sound intensity decreases as distance from a source increases.</li>
+    <li>Intensity decreases by a factor of four (or approximately 6 dB) each time the distance doubles.</li>
+</ul>
+
+<div class="formula">
+    \[ SIL = SWL - 10 \log_{10} (4 \pi r^2) \]
+</div>
+
+<p><strong>Where</strong>:</p>
+<ul>
+    <li><em>r</em> is the distance from the sound source (in meters).</li>
+    <li><em>SWL</em> is the Sound Power Level of the source.</li>
+</ul>
+
+<h3>Example Calculation</h3>
+<p>Calculate the SIL at various distances from a point source loudspeaker with an SWL of 100 dB:</p>
+<ul>
+    <li>At 1 meter:
+        <div class="formula">
+            \[ SIL = 100 - 10 \log_{10}(4 \pi \cdot 1^2) = 88.99 \, \text{dB} \]
+        </div>
+    </li>
+    <li>At 2 meters:
+        <div class="formula">
+            \[ SIL = 100 - 10 \log_{10}(4 \pi \cdot 2^2) = 82.99 \, \text{dB} \]
+        </div>
+    </li>
+</ul>
+
+<h3>Chart for SIL over Distance</h3>
+<p>Include a chart with <strong>Distance from Source (m)</strong> on the x-axis and <strong>Sound Intensity Level (dB)</strong> on the y-axis, showing the 6 dB drop per doubling of distance.</p>
+
+<h2>3. Sound Radiation Patterns and Practical Implications</h2>
+
+<p><strong>Sound Radiation from Point vs. Directional Sources</strong>:</p>
+<ul>
+    <li><strong>Point Source Radiation</strong>: Sound radiates equally in all directions, forming a spherical wavefront.</li>
+    <li><strong>Directional Source Radiation</strong>: Certain sources like loudspeakers project sound primarily forward.</li>
+</ul>
+
+<h3>Using the Dodecahedron Loudspeaker</h3>
+<p>In practical testing, a <strong>dodecahedron loudspeaker</strong> is often used to simulate a point source, making it ideal for room acoustic measurements and environmental noise assessments.</p>
+
+<h3>Example Calculation: Room Acoustics in a Lecture Hall</h3>
+<p>Calculate SPL for a sound source with an SWL of 90 dB at various points in a room:</p>
+<div class="formula">
+    \[ SPL = SWL - 10 \log_{10} (4 \pi r^2) \]
+</div>
+
+<h2>4. Summary and Key Takeaways</h2>
+<p><strong>Review of Key Concepts</strong>:</p>
+<ul>
+    <li>The <strong>point source assumption</strong> simplifies sound propagation calculations.</li>
+    <li>The <strong>Inverse Square Law</strong> shows how SIL decreases with distance.</li>
+</ul>
+
+<p><strong>Practical Relevance</strong>:</p>
+<p>Understanding sound propagation is essential in engineering applications, from sound design to product testing and noise assessment.</p>
+
+</body>
+</html>

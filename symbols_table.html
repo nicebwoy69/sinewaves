@@ -1,0 +1,134 @@
+<h2>Symbols Table</h2>
+<p>This table provides an overview of the key symbols and terms used throughout the tutorial, including their meanings, formulas, and units where applicable.</p>
+
+<table>
+    <tr>
+        <th>Symbol</th>
+        <th>Description</th>
+        <th>Formula/Additional Detail</th>
+        <th>Units</th>
+    </tr>
+    <tr>
+        <td><strong>\( A \)</strong></td>
+        <td>Amplitude - The peak value of the sinusoidal wave, representing intensity or loudness</td>
+        <td>\( A(t) = A \sin(\omega t + \phi) \)</td>
+        <td>Varies (e.g., volts, dB)</td>
+    </tr>
+    <tr>
+        <td><strong>\( T \)</strong></td>
+        <td>Period - The time taken to complete one full cycle of the waveform</td>
+        <td>\( T = \frac{1}{f} \)</td>
+        <td>Seconds (s)</td>
+    </tr>
+    <tr>
+        <td><strong>\( f \)</strong></td>
+        <td>Frequency - The number of cycles per second, determining the pitch of the sound</td>
+        <td>\( f = \frac{1}{T} \)</td>
+        <td>Hertz (Hz)</td>
+    </tr>
+    <tr>
+        <td><strong>\( \omega \)</strong></td>
+        <td>Angular Frequency - Describes the rate of change of phase per second</td>
+        <td>\( \omega = 2 \pi f \)</td>
+        <td>Radians per second (rad/s)</td>
+    </tr>
+    <tr>
+        <td><strong>\( \phi \)</strong></td>
+        <td>Phase - The offset or position within a cycle of the sinusoidal wave</td>
+        <td>
+            Initial phase: <br>
+            \( A(t) = A \sin(\omega t + \phi) \) <br><br>
+            Phase delay: <br>
+            \( \phi = -2 \pi f t_D \)
+        </td>
+        <td>Radians (rad) or Degrees (°)</td>
+    </tr>
+    <tr>
+        <td><strong>\( t_D \)</strong></td>
+        <td>Time Delay - The delay between two waveforms, affecting phase alignment</td>
+        <td>\( t_D = \frac{\phi}{-2 \pi f} \)</td>
+        <td>Seconds (s)</td>
+    </tr>
+    <tr>
+        <td><strong>\( \pi \)</strong></td>
+        <td>Pi - A constant representing the ratio of a circle’s circumference to its diameter</td>
+        <td>\( \approx 3.14159 \)</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td><strong>dB</strong></td>
+        <td>Decibels - A logarithmic unit for measuring amplitude or intensity in audio</td>
+        <td>\( \text{dB} = 20 \log_{10} \left( \frac{A_{\text{out}}}{A_{\text{in}}} \right) \)</td>
+        <td>Decibels (dB)</td>
+    </tr>
+    <tr>
+        <td><strong>FFT</strong></td>
+        <td>Fast Fourier Transform - An efficient algorithm for calculating the Discrete Fourier Transform</td>
+        <td>Commonly used for real-time spectral analysis</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td><strong>DFT</strong></td>
+        <td>Discrete Fourier Transform - Converts a discrete signal from the time to the frequency domain</td>
+        <td>Basis of Fourier analysis in digital signal processing</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td><strong>Hann Window</strong></td>
+        <td>Window function used in Fourier Transform to reduce spectral leakage</td>
+        <td>Good for smoothing continuous signals</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td><strong>Hamming Window</strong></td>
+        <td>Window function reducing leakage for signals with rapid changes</td>
+        <td>Common in discrete signal processing</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td><strong>Blackman Window</strong></td>
+        <td>Window function providing high-resolution frequency response in Fourier analysis</td>
+        <td>Useful for detailed audio processing</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td><strong>\( A(t) \)</strong></td>
+        <td>Amplitude at a specific time \( t \)</td>
+        <td>Given by \( A(t) = A \sin(\omega t + \phi) \) for a sinusoidal wave</td>
+        <td>Varies (e.g., volts, dB)</td>
+    </tr>
+    <tr>
+        <td><strong>\( A_c, f_c, f_m, I \)</strong></td>
+        <td>FM Synthesis Parameters: Carrier amplitude, carrier frequency, modulator frequency, modulation index</td>
+        <td>
+            FM Synthesis formula: <br>
+            \( A(t) = A_c \sin(2 \pi f_c t + I \sin(2 \pi f_m t)) \)
+        </td>
+        <td>Varies</td>
+    </tr>
+    <tr>
+        <td><strong>dB Gain</strong></td>
+        <td>Decibel Gain - The gain applied to a signal’s amplitude in equalization</td>
+        <td>\( \text{New Amplitude} = \text{Original Amplitude} \times 10^{\frac{\text{dB Gain}}{20}} \)</td>
+        <td>Decibels (dB)</td>
+    </tr>
+</table>
+
+<hr>
+
+<h3>Additional Notes</h3>
+
+1. **Angular Frequency (\( \omega = 2 \pi f \))**: Angular frequency represents how rapidly the phase angle changes per second. It’s critical for understanding how quickly a wave oscillates and is especially useful in phase and delay calculations.
+
+2. **Phase (\( \phi \))**: Phase can have multiple meanings in audio analysis. As an initial phase, it represents the wave’s starting point. For phase delay between two signals, it quantifies how much one signal lags behind another. 
+
+3. **Time Delay (\( t_D \))**: Time delay can be derived from phase delay, as shown by \( t_D = \frac{\phi}{-2 \pi f} \), useful when assessing phase alignment in signal interference.
+
+4. **Window Functions (Hann, Hamming, Blackman)**: These functions are applied in FFT/DFT to handle edge effects and spectral leakage, which can distort the frequency representation in digital signals. Each function has specific benefits based on signal characteristics:
+   - **Hann Window**: Best for continuous, smoother signals.
+   - **Hamming Window**: Reduces leakage for discrete signals with sharp transitions.
+   - **Blackman Window**: Offers high-resolution frequency response, useful for precise audio processing.
+
+5. **FM Synthesis Parameters**: Frequency Modulation (FM) synthesis relies on a carrier wave modulated by a secondary frequency, creating complex tones rich in harmonics. The modulation index \( I \) controls the extent of frequency deviation, crucial for generating intricate sound textures.
+
+This table and notes should serve as a thorough reference to all key symbols and concepts in the tutorial. Let me know if more details are needed on any specific item!

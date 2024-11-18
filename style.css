@@ -1,0 +1,152 @@
+ 
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+/* Content Container */
+.container {
+    max-width: 960px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Headers */
+h1, h2, h3 {
+    color: #2c3e50;
+    margin-top: 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.75em;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 5px;
+    margin-top: 1.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #e74c3c;
+    margin-top: 1em;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+    margin: 15px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Formulas */
+.formula {
+    font-size: 1em;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    color: #2c3e50;
+    overflow-x: auto;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+th {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+/* Summary Section */
+.summary-table {
+    margin-top: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Code Blocks for Formulas */
+code {
+    font-family: Consolas, monospace;
+    font-size: 0.9em;
+    background-color: #f2f2f2;
+    padding: 3px 5px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* Additional Small Styling */
+em {
+    color: #e74c3c;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 30px 0;
+}
+
+/* Flexbox for Layout Adjustments */
+.section-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-container > .section {
+    margin: 20px 0;
+}
+
+.section-container img,
+.section-container .table-container,
+.section-container .formula {
+    margin: 0 auto;
+}
+
+    

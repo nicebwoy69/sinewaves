@@ -1,0 +1,620 @@
+NIE2249 Acoustics and Psychoacoustics
+ Lecture 4-5
+ Frequency Perception
+ NIE2249 Acoustics and Psychoacoustics
+ 
+Lecture 4 key points
+ • After this lecture, you should be able to– Explain what basilar membrane is for and how it 
+works.– Define critical modulation frequency and critical band.– Explain frequency masking in relation to critical band.
+ 1
+ NIE2249 Acoustics and Psychoacoustics
+ 
+• Further reading on auditory perception fundamentals.
+ NIE2249 Acoustics and Psychoacoustics
+ 2
+ 
+Human ear
+ • Outer ear– Modifies the frequency response 
+of incoming sound.– Pinna provides cues for sound 
+localisation.
+ • Middle ear– Transmits acoustic (mechanical) 
+vibrations to the inner ear 
+without loss of energy.– Match low-impedance air wave 
+(outer ear) to high-impedance 
+membrane wave (inner ear).– Protects the hearing system by 
+increasing the impedance for 
+sudden loud sounds ( > 75dB 
+SPL)
+ 3
+ NIE2249 Acoustics and Psychoacoustics
+ 
+Human ear
+ • Inner ear (Cochlea)– Converts mechanical vibrations 
+into nerve firings so that they 
+can be interpreted by the brain. – Analyses the frequency 
+components of input sounds.
+ (Basilar membrane)
+ 4
+ NIE2249 Acoustics and Psychoacoustics
+ 
+Human ear
+ • Inner ear (Cochlea)– Converts mechanical vibrations 
+into nerve firings so that they 
+can be interpreted by the brain. – Analyses the frequency 
+components of input sounds.
+ (Basilar membrane)
+ 5
+ NIE2249 Acoustics and Psychoacoustics
+ 
+Basilar membrane (BM)
+ • Part of the cochlea that is responsible for analysing the 
+frequencies of ear input signal.
+ • Vibrates in response to stimulation by signals in the 
+audible frequency range (20Hz – 20kHz).
+ sound
+ Unrolled cochlea
+ Base
+ (narrower
+ & thinner)
+ Basilar membrane
+ Apex
+ (wider & 
+thicker)
+ 20,000Hz
+ 2000Hz
+ 200Hz
+ 20Hz
+ NIE2249 Acoustics and Psychoacoustics
+ 
+Basilar membrane (BM)
+ • Different frequencies 
+cause maximum 
+variations at different 
+places along the basilar 
+membrane.- At lower frequencies the BM 
+vibrates as a whole with a 
+maximum vibrating position at 
+places near the apex.- At higher frequencies a 
+maximum vibration occurs at 
+places near the base with a 
+sharper envelope.
+ Base
+ Apex
+ Basilar membrane
+ 100Hz
+ Movement envelope
+ 500Hz
+ 1kHz
+ 10kHz
+ Frequency
+ Higher Lower
+ 7
+ NIE2249 Acoustics and Psychoacoustics
+ 
+Basilar membrane (BM)
+ • The range of frequencies 
+covered by a unit BM 
+region increases 
+logarithmically from Apex 
+to Base.
+ The frequency resolution of 
+the human ear decreases 
+as the frequency goes up. 
+Base
+ Apex
+ Basilar membrane
+ …..
+ 4400
+ D
+ f
+ 8
+ = 700
+ …..
+ 3700
+ D
+ …..
+ 2000
+ f
+ 1720
+ = 280
+ D
+ …..
+ 300
+ f
+ 200
+ =100
+ Hz
+ NIE2249 Acoustics and Psychoacoustics
+ 
+Basilar membrane (BM)
+ • For complex sounds with 
+many frequencies, the 
+overall BM response is 
+the sum of  the responses 
+for the individual 
+frequencies.
+ • Each region on the BM 
+responds to a limited 
+range of frequencies.
+ àThe BM acts as an 
+auditory filter bank.
+ Base
+ Apex
+ Basilar membrane
+ …..
+ Movement envelope
+ Higher
+ 9
+ Frequency
+ …..
+ Lower
+ NIE2249 Acoustics and Psychoacoustics
+ 
+Frequency resolution
+ • Two pure tones with different frequencies simultaneously 
+inputted to the ears cannot be completely resolved if the 
+frequency difference is not large enough.
+ àSensations of ‘beats’ and ‘roughness’ can be 
+perceived.
+ • It is possible to perceive fully separated frequencies only 
+when the frequency difference exceeds the Critical 
+Modulation Frequency (CMF).
+ 10
+ NIE2249 Acoustics and Psychoacoustics
+ 
+Frequency resolution
+ • If the frequency difference F1 – F2 is below 15Hz
+ D
+ F– A ‘fused’ tone with a sensation of ‘beats’ can be heard.– Beats: a low rate amplitude modulation with modulation frequency 
+of      
+(Difference or beat frequency)– The variation of amplitude in time is slow enough to chase.
+ F1
+ e.g. F1=500Hz, F2=490Hz
+ F1 – F2 = 10Hz 
+(beat frequency)
+ F2
+ Fused
+ Separate
+ D
+ F
+ CMF
+ Beats
+ 15Hz 0
+ = F2 – F1 
+15Hz
+ Rough
+ Smooth
+ Smooth
+ CMF
+ D
+ F
+ = F1 – F2 
+NIE2249 Acoustics and Psychoacoustics
+ 
+Frequency resolution
+ • If the frequency difference F1 – F2 is above 15Hz– Up to a certain range, a ‘fused’ tone with a sensation of 
+‘roughness’ is heard.– Roughness: a higher rate amplitude modulation– The variation of amplitude in time is too fast to chase.
+ F1
+ e.g. F1=500Hz, F2=470Hz
+ F1 – F2 = 30Hz
+ F2
+ Fused
+ D
+ F
+ CMF
+ = F2 – F1 
+15Hz 0
+ Beats
+ 15Hz
+ Rough
+ CMF
+ Separate
+ Smooth
+ Smooth
+ D
+ F
+ = F1 – F2 
+NIE2249 Acoustics and Psychoacoustics
+ 
+Frequency resolution
+ • If the frequency difference F1 – F2 is above 15Hz– If the frequency difference is further increased,                    
+a 
+‘separate’ tone can be vaguely detected, but still with a sensation 
+of ‘roughness’.
+ F1
+ e.g. F1=500Hz, F2=440Hz
+ F1 – F2 = 60Hz
+ F2
+ Fused
+ D
+ F
+ CMF
+ = F2 – F1 
+15Hz 0
+ Beats
+ 15Hz
+ Rough
+ CMF
+ Separate
+ Smooth
+ Smooth
+ D
+ F
+ = F1 – F2 
+NIE2249 Acoustics and Psychoacoustics
+ 
+Frequency resolution
+ • If F1 – F2 is above the ‘Critical Modulation Frequency 
+(CMF)’– The perceived sound appears to be ‘smooth’.– Two ‘separate’ frequencies can be clearly distinguished.
+ F1
+ e.g. F1=500Hz, F2=410Hz
+ F1 – F2 = 90Hz
+ F2
+ Fused
+ Separate
+ Beats
+ D
+ F
+ CMF
+ = F2 – F1
+ 15Hz 0
+ 15Hz
+ Rough
+ Smooth
+ Smooth
+ CMF
+ D
+ F
+ = F1 – F2 
+NIE2249 Acoustics and Psychoacoustics
+ 
+Frequency resolution
+ • If the frequency difference is smaller than the CMF, the 
+separation of the places on the basilar membrane for the 
+two tones is not sufficient to completely distinguish 
+between the two frequencies. 
+F1
+ F2
+ Fused
+ Beats
+ D
+ F
+ CMF
+ = F2 – F1
+ 15Hz 0
+ 15Hz
+ 15
+ Rough
+ Separate
+ Smooth
+ Smooth
+ CMF
+ D
+ F
+ = F1 – F2 
+NIE2249 Acoustics and Psychoacoustics
+ 
+Frequency resolution
+ • If the frequency difference is greater than the CMF, the 
+separation of the places on the basilar membrane for the 
+two tones is sufficient to completely distinguish between 
+the two frequencies. 
+F1
+ F2
+ Fused
+ Beats
+ D
+ F
+ CMF
+ = F2 – F1
+ 15Hz 0
+ 15Hz
+ 16
+ Separate
+ Rough
+ Smooth
+ Smooth
+ CMF
+ D
+ F
+ = F1 – F2 
+NIE2249 Acoustics and Psychoacoustics
+ 
+Frequency resolution
+ • If the frequency difference is greater than the CMF, the 
+separation of the places on the basilar membrane for the 
+two tones is sufficient to completely distinguish between 
+the two frequencies. 
+F2
+ F1
+ F2
+ Separate
+ Smooth
+ D
+ F
+ = F2 – F1
+ CMF
+ Fused
+ Rough
+ Beats
+ 15Hz 0
+ Fused
+ Beats
+ 15Hz
+ Separate
+ Rough
+ Smooth
+ Smooth
+ CMF
+ D
+ F
+ = F1 – F2 
+NIE2249 Acoustics and Psychoacoustics
+ 
+Critical bandwidth (CB)
+ • If F1 is the centre frequency, the span of the lower and 
+higher CMFs is called the ‘Critical Bandwidth (CB)’ for F1.
+ • CMF is a ‘subjective’ measure of the CB. 
+F2
+ F1
+ F2
+ Separate
+ Smooth
+ Fused
+ Fused
+ Critical Bandwidth (CB)
+ Rough
+ D
+ F
+ CMF
+ = F2 – F1
+ Beats
+ 15Hz 0
+ Beats
+ 15Hz
+ Rough
+ Separate
+ Smooth
+ Smooth
+ CMF
+ D
+ F
+ = F1 – F2 
+NIE2249 Acoustics and Psychoacoustics
+ 
+Critical bandwidth (CB)
+ • “Objective” measures for CB proposed based on 
+subjective tests à Assumes that the BM movement is 
+symmetrical.
+ • The formula varies with different researchers.
+ • CB by Zwicker (1954)
+ CB(Hz) =25+75× 1+1.4 ×(fc(kHz)2
+ [
+ ]
+ 0.69
+ • Equivalent Rectangular Band
+ (ERB) by Moore and Grasberg (1983)
+ ERB(Hz) =24.7×(4.37× fc(kHz)+1)
+ 
+ NIE2249 Acoustics and Psychoacoustics
+ 19
+Equivalent Rectangular Band (ERB)
+ • Can be created using the Gammatone Filterbank.
+ • The number of bands can be chosen flexibly (e.g. 24 ~ 64).
+ NIE2249 Acoustics and Psychoacoustics
+ 20
+ 
+Critical bandwidth vs. Frequency
+ • As frequency goes up, the CB of the frequency 
+increases.
+ àa high frequency difference is more difficult to perceive than a low 
+frequency difference. 
+500Hz + 400Hz
+ 2000Hz + 1900Hz
+ 2000Hz + 1750Hz
+ 2000Hz + 1600Hz
+ 
+ NIE2249 Acoustics and Psychoacoustics
+ 21
+Critical bandwidth vs. Frequency
+ • As frequency goes up, the CB of the frequency 
+increases.
+ àThis is because the frequency resolution of higher frequencies is 
+lower than that of lower frequencies. (There is a greater overlap 
+between the BM movement envelopes at high frequencies.) 
+Base
+ Apex
+ Basilar membrane
+ …..
+ Higher
+ Frequency
+ …..
+ Lower
+ 
+ NIE2249 Acoustics and Psychoacoustics
+ 22
+Frequency masking
+ • When two sounds with similar frequencies are played 
+simultaneously the louder sound (Masker) masks the 
+weaker sound (Maskee), 
+It depends on the “critical bandwidths” of the 
+masker and maskee.
+ 23
+ NIE2249 Acoustics and Psychoacoustics
+ 
+NIE2249 Acoustics and Psychoacoustics 
+ Pure tone masking pure tone
+ • If two tones are widely separated in frequency (If the 
+maskeefrequency is outside the critical bandwidth of the 
+masker), there is no masking. 
+24
+ 200Hz 500Hz Both
+ 12dB
+Pure tone masking pure tone
+ • Masking begins to occur when the critical bandwidths of 
+masker and maskee overlap. (200Hz masking 230Hz)
+ CB
+ (
+ Hz
+ )
+ =
+ 25
+ +
+ 75
+ [
+ 1
+ +
+ CB for 200Hz = 102Hz
+ 1
+ .
+ 4
+ (
+ fc
+ (
+ kHz
+ )
+ 2
+ 0
+ ] 69
+ .
+ 12dB
+ [Zwicker]
+ 230Hz
+ 200Hz
+ 25
+ Both
+ NIE2249 Acoustics and Psychoacoustics
+ 
+Pure tone masking pure tone
+ • The strength of masking is smaller when masker 
+frequency is higher than maskee frequency  (230Hz 
+masking 200Hz).
+ CB
+ (
+ Hz
+ )
+ =
+ 25
+ +
+ 75
+ [
+ 1
+ +
+ CB for 200Hz = 102Hz
+ 1
+ .
+ 4
+ (
+ fc
+ (
+ kHz
+ )
+ 2
+ 0
+ ] 69
+ .
+ [Zwicker]
+ 230Hz
+ 12dB
+ 200Hz
+ 26
+ Both
+ NIE2249 Acoustics and Psychoacoustics
+ 
+Masking Threshold & 
+Signal to Mask Ratio (SMR)
+ • Masking Threshold: the maximum level of maskee at 
+which the masking effect occurs. (above the masking 
+threshold, there is no more masking.)
+ • SMR: the minimum level difference between masker and 
+maskee at which the masking effect begins to occur. 
+SMR
+ Masking threshold
+ 230Hz
+ 27
+ 200Hz
+ NIE2249 Acoustics and Psychoacoustics
+ 
+Noise masking pure tone
+ • As the bandwidth (BW) of a masker noise is increased 
+with a constant power density with the CB of its centre 
+frequency, the strength of masking effect is increased. 
+àthe masking threshold can be increased.
+ Fc = 2kHz, BW 100Hz
+ Higher masking threshold
+ àStronger masker
+ Noise
+ 2kHz
+ Tone
+ 28
+ Hypothetic rectangular 
+critical band
+ Both
+ NIE2249 Acoustics and Psychoacoustics
+ 
+Noise masking pure tone
+ • As the bandwidth (BW) of a masker noise is increased 
+with a constant power density with the CB of its centre 
+frequency, the strength of masking effect is increased. 
+àthe masking threshold can be increased.
+ Fc = 2kHz, BW 200Hz
+ Higher masking threshold
+ àStronger masker
+ Noise Hypothetic rectangular 
+critical band
+ 2kHz
+ Tone
+ 29
+ Both
+ NIE2249 Acoustics and Psychoacoustics
+ 
+Noise masking pure tone
+ • As the bandwidth (BW) of a masker noise is increased 
+with a constant power density with the CB of its centre 
+frequency, the strength of masking effect is increased. 
+àthe masking threshold can be increased.
+ Fc = 2kHz, BW 400Hz
+ Higher masking threshold
+ àStronger masker
+ Noise Hypothetic rectangular 
+critical band
+ 2kHz
+ Tone
+ 30
+ Both
+ NIE2249 Acoustics and Psychoacoustics
+ 
+Noise masking pure tone
+ • If the bandwidth (BW) of a noise masker exceeds the 
+critical band of its centre frequency, increasing the 
+bandwidth does not make the masking effect stronger. 
+àdoes not allow a higher masking threshold.
+ Fc = 2kHz, BW 800Hz
+ Higher masking threshold
+ àStronger masker
+ Noise
+ Noise Hypothetic rectangular 
+critical band
+ 2kHz
+ Tone
+ 31
+ Both
+ NIE2249 Acoustics and Psychoacoustics
+ 
+Noise masking pure tone
+ • If the bandwidth (BW) of a noise masker exceeds the 
+critical band of its centre frequency, increasing the 
+bandwidth does not make the masking effect stronger. 
+àdoes not allow a higher masking threshold.
+ Fc = 2kHz, BW 1600Hz
+ Higher masking threshold
+ àStronger masker
+ Noise
+ Noise Hypothetic rectangular 
+critical band
+ 2kHz
+ Tone
+ 32
+ Combi
+ NIE2249 Acoustics and Psychoacoustics
+ 
